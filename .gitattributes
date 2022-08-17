@@ -1,0 +1,16 @@
+*.grb binary
+*.grb.gz binary
+*.grb2 binary
+
+*.grib binary
+*.grib.gz binary
+
+*.grib2 binary
+*.grib2.gz binary
+
+*.nc binary
+*.nc.gz binary
+
+*bil.gz binary
+
+*.tar binary
