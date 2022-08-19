@@ -1,0 +1,18 @@
+#############################################################################################
+# Files too large for storage in git should be .gitignored
+# A parent directory (typically named corresponding to the file type or acquirable) should be
+# created and populated by `USACE/cumulus-geoproc` unittest at runtime.
+# Below is an example entry that ignores all files in the directory fixtures/hrrr-total-precip
+# directory, including the hrrr-total-precip parent directory, as empty directories are not
+# saved in .git (which is desired in this case).
+# fixtures/hrrr-total-precip/**
+#############################################################################################
+
+# MacOS DS_Store
+**/.DS_Store
+
+# Test Data Too Large for Repository
+####################################
+
+# HRRR
+fixtures/hrrr-total-precip/**
