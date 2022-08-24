@@ -16,3 +16,5 @@
 
 # HRRR
 fixtures/hrrr-total-precip/**
+# NBM
+fixtures/nbm-co-01h/**
