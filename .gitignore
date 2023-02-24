@@ -1,2 +1,5 @@
 # MacOS DS_Store
 **/.DS_Store
+
+# Test data in tar.gz
+*.tar.gz
