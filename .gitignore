@@ -1,6 +1,10 @@
 # MacOS DS_Store
 **/.DS_Store
 
+# grid properties file
+**/*.properties
+
+
 # Test data in tar.gz
 cumulus-geoproc-test-data.tar.gz
 
