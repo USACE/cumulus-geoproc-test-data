@@ -16,8 +16,10 @@ jobs:
 
       - name: Tar Test Grids
         run: |
-          tar -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz \
-            -C ${{ github.workspace }}/fixtures .
+          tar --exclude ".*" \
+              --exclude "*.properties" \
+              -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz \
+              -C ${{ github.workspace }}/fixtures .
 
       - uses: ncipollo/release-action@v1
         with:
