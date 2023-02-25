@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "marfc-rtmat-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/marfc-rtmat-01h/RHA_T_RTMA_1hr.2022-08-09.19z.grb",
+        "versioned": false,
+        "name_pattern": "RHA_T_RTMA_1hr.%Y-%m-%d.%Hz.grb"
+    }
+]

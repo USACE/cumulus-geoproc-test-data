@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "serfc-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/serfc-qpf-06h/ALR_QPF_SFC_2022040100_006.grb.gz",
+        "versioned": true,
+        "name_pattern": "ALR_QPF_SFC_%Y040100_006.grb.gz"
+    }
+]

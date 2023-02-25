@@ -1,0 +1,43 @@
+[
+    {
+        "plugin": "hrrr-total-precip",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf00.grib2",
+        "versioned": true,
+        "products": 0,
+        "name_pattern": "hrrr.t00z.wrfsfcf00.grib2",
+        "attr": {
+            "90": {
+                "GRIB_COMMENT": "01 hr Total precipitation [kg/(m^2)]",
+                "GRIB_ELEMENT": "APCP01",
+                "GRIB_UNIT": "[kg/(m^2)]"
+            },
+            "25": {
+                "GRIB_COMMENT": "Geopotential height [gpm]",
+                "GRIB_SHORT_NAME": "85000-ISBL",
+                "GRIB_ELEMENT": "HGT",
+                "GRIB_UNIT": "[gpm]"
+            }
+        }
+    },
+    {
+        "plugin": "hrrr-total-precip",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf06.grib2",
+        "versioned": true,
+        "name_pattern": "hrrr.t00z.wrfsfcf06.grib2",
+        "attr": {
+            "90": {
+                "GRIB_COMMENT": "01 hr Total precipitation [kg/(m^2)]",
+                "GRIB_ELEMENT": "APCP01",
+                "GRIB_UNIT": "[kg/(m^2)]"
+            },
+            "25": {
+                "GRIB_COMMENT": "Geopotential height [gpm]",
+                "GRIB_SHORT_NAME": "85000-ISBL",
+                "GRIB_ELEMENT": "HGT",
+                "GRIB_UNIT": "[gpm]"
+            }
+        }
+    }
+]

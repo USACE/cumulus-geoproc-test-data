@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "nohrsc-snodas-unmasked",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nohrsc-snodas-unmasked/SNODAS_unmasked_20180115.tar",
+        "versioned": false,
+        "name_pattern": "SNODAS_unmasked_20180115.tar"
+    }
+]

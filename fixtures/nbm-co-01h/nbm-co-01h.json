@@ -1,0 +1,42 @@
+[
+    {
+        "plugin": "nbm-co-01h",
+        "url": null,
+        "local_source": "cumulus-geoproc-test-data/fixtures/nbm-co-01h/blend.t00z.core.f001.co.grib2",
+        "versioned": true,
+        "products": 2,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
+        "attr": {
+            "54": {
+                "GRIB_COMMENT": "Temperature [C]",
+                "GRIB_ELEMENT": "T",
+                "GRIB_SHORT_NAME": "2-HTGL",
+                "GRIB_UNIT": "[C]"
+            },
+            "46": {
+                "GRIB_ELEMENT": "QPF01",
+                "GRIB_SHORT_NAME": "0-SFC"
+            }
+        }
+    },
+    {
+        "plugin": "nbm-co-01h",
+        "url": null,
+        "local_source": "cumulus-geoproc-test-data/fixtures/nbm-co-01h/blend.t00z.core.f002.co.grib2",
+        "versioned": true,
+        "products": 2,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
+        "attr": {
+            "54": {
+                "GRIB_COMMENT": "Temperature [C]",
+                "GRIB_ELEMENT": "T",
+                "GRIB_SHORT_NAME": "2-HTGL",
+                "GRIB_UNIT": "[C]"
+            },
+            "46": {
+                "GRIB_ELEMENT": "QPF01",
+                "GRIB_SHORT_NAME": "0-SFC"
+            }
+        }
+    }
+]

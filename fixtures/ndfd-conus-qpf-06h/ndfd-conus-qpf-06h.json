@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "ndfd-conus-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ndfd-conus-qpf-06h/ds.qpf_202208250054.bin",
+        "versioned": true,
+        "name_pattern": "ds.airtemp_%Y08010054-1-3.bin"
+    }
+]

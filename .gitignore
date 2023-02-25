@@ -2,4 +2,8 @@
 **/.DS_Store
 
 # Test data in tar.gz
-*.tar.gz
+cumulus-geoproc-test-data.tar.gz
+
+# Don't want the grids but need the json
+**/hrrr-total-precip/*.grib2
+**/nbm-co-01h/*.grib2

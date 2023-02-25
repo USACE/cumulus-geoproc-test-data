@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "ncep-stage4-mosaic-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-stage4-mosaic-06h/st4_conus.2022080718.06h.grb2",
+        "versioned": false,
+        "name_pattern": "st4_conus.%Y080718.06h.grb2"
+    }
+]

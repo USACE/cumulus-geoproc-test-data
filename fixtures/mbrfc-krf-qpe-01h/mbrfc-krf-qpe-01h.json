@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "mbrfc-krf-qpe-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-qpe-01h/krfqpe_2022080921z.grib.gz",
+        "versioned": false,
+        "name_pattern": "krfqpe_%Y%m%d%hz.grib.gz"
+    }
+]

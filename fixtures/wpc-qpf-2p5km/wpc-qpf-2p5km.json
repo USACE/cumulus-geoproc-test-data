@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "wpc-qpf-2p5km",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/wpc-qpf-2p5km/p06m_2022080912f168.grb",
+        "versioned": true,
+        "name_pattern": "p06m_%Y%m%d12f168.grb"
+    }
+]

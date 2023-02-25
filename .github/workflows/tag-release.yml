@@ -14,18 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Geoproc Test Data Archive
-        run: |
-          curl -L https://github.com/USACE/cumulus-geoproc-test-data/releases/download/${GITHUB_REF_NAME}/cumulus-geoproc-test-data.tar.gz \
-          --output cumulus-geoproc-test-data.tar.gz
+      - name: Add Big Grids
+        run: ./add_big_grids
 
-      - name: Extract Release README
+      - name: Tar Test Grids
         run: |
-          tar -xzvOf ./cumulus-geoproc-test-data.tar.gz */README.md > README.md
-          rm -f ./cumulus-geoproc-test-data.tar.gz
+          tar -czf ${{ github.workspace }}/cumulus-geoproc-test-data_${{ github.ref_name }}.tar.gz -C ${{
+          github.workspace }}/fixtures .
 
-      - name: Commit Changes
-        uses: EndBug/add-and-commit@v8
+      - name: Update README
+        run: ./gen_markdown
+
+      - uses: ncipollo/release-action@v1
         with:
-          default_author: github_actions
+          allowUpdates: true
+          artifacts: "${{ github.workspace }}/cumulus-geoproc-test-data_${{ github.ref_name }}.tar.gz "
+          bodyFile: ${{ github.workspace }}/README.md
+          makeLatest: true

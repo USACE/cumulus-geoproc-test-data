@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "nwrfc-qtf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qtf-06h/QTF.2022121212.nc.gz",
+        "versioned": true,
+        "name_pattern": "QTF.%Y121212.nc.gz"
+    }
+]

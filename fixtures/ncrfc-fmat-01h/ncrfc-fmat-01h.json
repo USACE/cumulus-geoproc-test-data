@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "ncrfc-fmat-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-fmat-01h/msr-coe-1hrT--NCRFC_hourlyFcstT_2022022612.tar.gz",
+        "versioned": true,
+        "name_pattern": "msr-coe-1hrT--NCRFC_hourlyFcstT_202%Y612.tar.gz"
+    }
+]

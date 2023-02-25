@@ -6,13 +6,15 @@
 
 
 ```
-{
-    "plugin": "ndfd-conus-qpf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ndfd-conus-qpf-06h/ds.qpf_202208250054.bin",
-    "versioned": true,
-    "name_pattern": "ds.qpf_%Y08250054.bin"
-}
+[
+    {
+        "plugin": "ndfd-conus-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ndfd-conus-qpf-06h/ds.qpf_202208250054.bin",
+        "versioned": true,
+        "name_pattern": "ds.airtemp_%Y08010054-1-3.bin"
+    }
+]
 ```
 
 
@@ -20,13 +22,15 @@
 
 
 ```
-{
-    "plugin": "prism-tmin-early",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmin-early/PRISM_tmin_early_4kmD2_20220808_bil.zip",
-    "versioned": false,
-    "name_pattern": "PRISM_tmin_early_4kmD2_%Y0808_bil.zip"
-}
+[
+    {
+        "plugin": "prism-tmin-early",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmin-early/PRISM_tmin_early_4kmD2_20220808_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_tmin_early_4kmD2_%Y0808_bil.zip"
+    }
+]
 ```
 
 
@@ -34,13 +38,15 @@
 
 
 ```
-{
-    "plugin": "nwrfc-qtf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qtf-06h/QTF.2022121212.nc.gz",
-    "versioned": true,
-    "name_pattern": "QTF.%Y121212.nc.gz"
-}
+[
+    {
+        "plugin": "nwrfc-qtf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qtf-06h/QTF.2022121212.nc.gz",
+        "versioned": true,
+        "name_pattern": "QTF.%Y121212.nc.gz"
+    }
+]
 ```
 
 
@@ -48,13 +54,15 @@
 
 
 ```
-{
-    "plugin": "nohrsc-snodas-unmasked",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nohrsc-snodas-unmasked/SNODAS_unmasked_20180115.tar",
-    "versioned": false,
-    "name_pattern": "SNODAS_unmasked_20180115.tar"
-}
+[
+    {
+        "plugin": "nohrsc-snodas-unmasked",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nohrsc-snodas-unmasked/SNODAS_unmasked_20180115.tar",
+        "versioned": false,
+        "name_pattern": "SNODAS_unmasked_20180115.tar"
+    }
+]
 ```
 
 
@@ -62,13 +70,15 @@
 
 
 ```
-{
-    "plugin": "wpc-qpf-2p5km",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/wpc-qpf-2p5km/p06m_2022080912f168.grb",
-    "versioned": true,
-    "name_pattern": "p06m_%Y%m%d12f168.grb"
-}
+[
+    {
+        "plugin": "wpc-qpf-2p5km",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/wpc-qpf-2p5km/p06m_2022080912f168.grb",
+        "versioned": true,
+        "name_pattern": "p06m_%Y%m%d12f168.grb"
+    }
+]
 ```
 
 
@@ -76,13 +86,15 @@
 
 
 ```
-{
-    "plugin": "nwrfc-qte-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qte-06h/QTE.2022121212.nc.gz",
-    "versioned": false,
-    "name_pattern": "QTE.%Y121212.nc.gz"
-}
+[
+    {
+        "plugin": "nwrfc-qte-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qte-06h/QTE.2022121212.nc.gz",
+        "versioned": false,
+        "name_pattern": "QTE.%Y121212.nc.gz"
+    }
+]
 ```
 
 
@@ -90,13 +102,15 @@
 
 
 ```
-{
-    "plugin": "ncep-mrms-v12-msqpe01h-p1-carib",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p1-carib/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
-    "versioned": false,
-    "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
-}
+[
+    {
+        "plugin": "ncep-mrms-v12-msqpe01h-p1-carib",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p1-carib/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
+    }
+]
 ```
 
 
@@ -104,13 +118,15 @@
 
 
 ```
-{
-    "plugin": "prism-tmin-stable",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmin-stable/PRISM_tmin_stable_4kmD2_19810929_bil.zip",
-    "versioned": false,
-    "name_pattern": "PRISM_tmin_stable_4kmD2_19810929_bil.zip"
-}
+[
+    {
+        "plugin": "prism-tmin-stable",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmin-stable/PRISM_tmin_stable_4kmD2_19810929_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_tmin_stable_4kmD2_19810929_bil.zip"
+    }
+]
 ```
 
 
@@ -118,26 +134,49 @@
 
 
 ```
-{
-    "plugin": "hrrr-total-precip",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/hrrr-total-precip/hrrr.t06z.wrfsfcf48.grib2",
-    "versioned": true,
-    "name_pattern": "hrrr.t00z.wrfsfcf01.grib2",
-    "attr": {
-        "90": {
-            "GRIB_COMMENT": "01 hr Total precipitation [kg/(m^2)]",
-            "GRIB_ELEMENT": "APCP01",
-            "GRIB_UNIT": "[kg/(m^2)]"
-        },
-        "25": {
-            "GRIB_COMMENT": "Geopotential height [gpm]",
-            "GRIB_SHORT_NAME": "85000-ISBL",
-            "GRIB_ELEMENT": "HGT",
-            "GRIB_UNIT": "[gpm]"
+[
+    {
+        "plugin": "hrrr-total-precip",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf00.grib2",
+        "versioned": true,
+        "products": 0,
+        "name_pattern": "hrrr.t00z.wrfsfcf00.grib2",
+        "attr": {
+            "90": {
+                "GRIB_COMMENT": "01 hr Total precipitation [kg/(m^2)]",
+                "GRIB_ELEMENT": "APCP01",
+                "GRIB_UNIT": "[kg/(m^2)]"
+            },
+            "25": {
+                "GRIB_COMMENT": "Geopotential height [gpm]",
+                "GRIB_SHORT_NAME": "85000-ISBL",
+                "GRIB_ELEMENT": "HGT",
+                "GRIB_UNIT": "[gpm]"
+            }
+        }
+    },
+    {
+        "plugin": "hrrr-total-precip",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf06.grib2",
+        "versioned": true,
+        "name_pattern": "hrrr.t00z.wrfsfcf06.grib2",
+        "attr": {
+            "90": {
+                "GRIB_COMMENT": "01 hr Total precipitation [kg/(m^2)]",
+                "GRIB_ELEMENT": "APCP01",
+                "GRIB_UNIT": "[kg/(m^2)]"
+            },
+            "25": {
+                "GRIB_COMMENT": "Geopotential height [gpm]",
+                "GRIB_SHORT_NAME": "85000-ISBL",
+                "GRIB_ELEMENT": "HGT",
+                "GRIB_UNIT": "[gpm]"
+            }
         }
     }
-}
+]
 ```
 
 
@@ -145,13 +184,15 @@
 
 
 ```
-{
-    "plugin": "prism-tmax-stable",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmax-stable/PRISM_tmax_stable_4kmD2_19810929_bil.zip",
-    "versioned": false,
-    "name_pattern": "PRISM_tmax_stable_4kmD2_19810929_bil.zip"
-}
+[
+    {
+        "plugin": "prism-tmax-stable",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmax-stable/PRISM_tmax_stable_4kmD2_19810929_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_tmax_stable_4kmD2_19810929_bil.zip"
+    }
+]
 ```
 
 
@@ -159,13 +200,15 @@
 
 
 ```
-{
-    "plugin": "mbrfc-krf-fct-airtemp-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-fct-airtemp-01h/krf_hourly_ftemps_grib_2022082501f373.grb.gz",
-    "versioned": true,
-    "name_pattern": "krf_hourly_ftemps_grib_%Y%m%d%Hf373.grb.gz"
-}
+[
+    {
+        "plugin": "mbrfc-krf-fct-airtemp-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-fct-airtemp-01h/krf_hourly_ftemps_grib_2022082501f373.grb.gz",
+        "versioned": true,
+        "name_pattern": "krf_hourly_ftemps_grib_%Y%m%d%Hf373.grb.gz"
+    }
+]
 ```
 
 
@@ -173,13 +216,15 @@
 
 
 ```
-{
-    "plugin": "ncep-mrms-v12-msqpe01h-p2-alaska",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p2-alaska/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
-    "versioned": false,
-    "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-%H0000.grib2.gz"
-}
+[
+    {
+        "plugin": "ncep-mrms-v12-msqpe01h-p2-alaska",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p2-alaska/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-%H0000.grib2.gz"
+    }
+]
 ```
 
 
@@ -187,13 +232,15 @@
 
 
 ```
-{
-    "plugin": "marfc-nbmt-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/marfc-nbmt-01h/RHA_T_NBM_9hr.2022-08-09.20z.grb",
-    "versioned": true,
-    "name_pattern": "RHA_T_NBM_9hr.%Y-%m-%d.%Hz.grb"
-}
+[
+    {
+        "plugin": "marfc-nbmt-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/marfc-nbmt-01h/RHA_T_NBM_9hr.2022-08-09.20z.grb",
+        "versioned": true,
+        "name_pattern": "RHA_T_NBM_9hr.%Y-%m-%d.%Hz.grb"
+    }
+]
 ```
 
 
@@ -201,13 +248,15 @@
 
 
 ```
-{
-    "plugin": "prism-ppt-stable",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/prism-ppt-stable/PRISM_ppt_stable_4kmD2_19810929_bil.zip",
-    "versioned": false,
-    "name_pattern": "PRISM_ppt_stable_4kmD2_19810929_bil.zip"
-}
+[
+    {
+        "plugin": "prism-ppt-stable",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/prism-ppt-stable/PRISM_ppt_stable_4kmD2_19810929_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_ppt_stable_4kmD2_19810929_bil.zip"
+    }
+]
 ```
 
 
@@ -215,13 +264,15 @@
 
 
 ```
-{
-    "plugin": "nerfc-qpe-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nerfc-qpe-01h/xmrg1207202215z.grb.gz",
-    "versioned": false,
-    "name_pattern": "xmrg1207%Y15z.grb.gz"
-}
+[
+    {
+        "plugin": "nerfc-qpe-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nerfc-qpe-01h/xmrg1207202215z.grb.gz",
+        "versioned": false,
+        "name_pattern": "xmrg1207%Y15z.grb.gz"
+    }
+]
 ```
 
 
@@ -229,13 +280,15 @@
 
 
 ```
-{
-    "plugin": "cnrfc-nbm-qtf-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-nbm-qtf-01h/fcstTemperature.20221208_0700.nc.gz",
-    "versioned": true,
-    "name_pattern": "fcstTemperature.%Y%m%d_%H00.nc.gz"
-}
+[
+    {
+        "plugin": "cnrfc-nbm-qtf-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-nbm-qtf-01h/fcstTemperature.20221208_0700.nc.gz",
+        "versioned": true,
+        "name_pattern": "fcstTemperature.%Y%m%d_%H00.nc.gz"
+    }
+]
 ```
 
 
@@ -243,13 +296,15 @@
 
 
 ```
-{
-    "plugin": "ncep-mrms-v12-msqpe01h-p2-carib",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p2-carib/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
-    "versioned": false,
-    "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-%H0000.grib2.gz"
-}
+[
+    {
+        "plugin": "ncep-mrms-v12-msqpe01h-p2-carib",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p2-carib/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-%H0000.grib2.gz"
+    }
+]
 ```
 
 
@@ -257,13 +312,15 @@
 
 
 ```
-{
-    "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass2",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass2/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
-    "versioned": false,
-    "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-150000.grib2.gz"
-}
+[
+    {
+        "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass2",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass2/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-150000.grib2.gz"
+    }
+]
 ```
 
 
@@ -271,13 +328,15 @@
 
 
 ```
-{
-    "plugin": "ncrfc-rtmat-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-rtmat-01h/msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_2022080921z.grb",
-    "versioned": false,
-    "name_pattern": "msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_%Y%m%d21z.grb"
-}
+[
+    {
+        "plugin": "ncrfc-rtmat-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-rtmat-01h/msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_2022080921z.grb",
+        "versioned": false,
+        "name_pattern": "msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_%Y%m%d21z.grb"
+    }
+]
 ```
 
 
@@ -285,13 +344,15 @@
 
 
 ```
-{
-    "plugin": "cnrfc-qpe-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-qpe-06h/qpe.20220803_1200.nc.gz",
-    "versioned": false,
-    "name_pattern": "qpe.%Y%m%d_%H00.nc.gz"
-}
+[
+    {
+        "plugin": "cnrfc-qpe-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-qpe-06h/qpe.20220803_1200.nc.gz",
+        "versioned": false,
+        "name_pattern": "qpe.%Y%m%d_%H00.nc.gz"
+    }
+]
 ```
 
 
@@ -299,26 +360,48 @@
 
 
 ```
-{
-    "plugin": "nbm-co-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nbm-co-01h/blend.20221212t01z.core.f001.co.grib2",
-    "versioned": true,
-    "products": 2,
-    "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
-    "attr": {
-        "54": {
-            "GRIB_COMMENT": "Temperature [C]",
-            "GRIB_ELEMENT": "T",
-            "GRIB_SHORT_NAME": "2-HTGL",
-            "GRIB_UNIT": "[C]"
-        },
-        "46": {
-            "GRIB_ELEMENT": "QPF01",
-            "GRIB_SHORT_NAME": "0-SFC"
+[
+    {
+        "plugin": "nbm-co-01h",
+        "url": null,
+        "local_source": "cumulus-geoproc-test-data/fixtures/nbm-co-01h/blend.t00z.core.f001.co.grib2",
+        "versioned": true,
+        "products": 2,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
+        "attr": {
+            "54": {
+                "GRIB_COMMENT": "Temperature [C]",
+                "GRIB_ELEMENT": "T",
+                "GRIB_SHORT_NAME": "2-HTGL",
+                "GRIB_UNIT": "[C]"
+            },
+            "46": {
+                "GRIB_ELEMENT": "QPF01",
+                "GRIB_SHORT_NAME": "0-SFC"
+            }
+        }
+    },
+    {
+        "plugin": "nbm-co-01h",
+        "url": null,
+        "local_source": "cumulus-geoproc-test-data/fixtures/nbm-co-01h/blend.t00z.core.f002.co.grib2",
+        "versioned": true,
+        "products": 2,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
+        "attr": {
+            "54": {
+                "GRIB_COMMENT": "Temperature [C]",
+                "GRIB_ELEMENT": "T",
+                "GRIB_SHORT_NAME": "2-HTGL",
+                "GRIB_UNIT": "[C]"
+            },
+            "46": {
+                "GRIB_ELEMENT": "QPF01",
+                "GRIB_SHORT_NAME": "0-SFC"
+            }
         }
     }
-}
+]
 ```
 
 
@@ -326,13 +409,15 @@
 
 
 ```
-{
-    "plugin": "abrfc-qpe-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2022080816Z.nc",
-    "versioned": false,
-    "name_pattern": "abrfc_qpe_01hr_%Y%m%d%HZ.nc"
-}
+[
+    {
+        "plugin": "abrfc-qpe-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2022080816Z.nc",
+        "versioned": false,
+        "name_pattern": "abrfc_qpe_01hr_%Y%m%d%HZ.nc"
+    }
+]
 ```
 
 
@@ -340,13 +425,15 @@
 
 
 ```
-{
-    "plugin": "cnrfc-qpf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-qpf-06h/qpf.20221201_1200.nc.gz",
-    "versioned": true,
-    "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
-}
+[
+    {
+        "plugin": "cnrfc-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-qpf-06h/qpf.20221201_1200.nc.gz",
+        "versioned": true,
+        "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
+    }
+]
 ```
 
 
@@ -354,13 +441,15 @@
 
 
 ```
-{
-    "plugin": "nwrfc-qpe-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qpe-06h/QPE.2022121212.nc.gz",
-    "versioned": false,
-    "name_pattern": "QPE.%Y121212.nc.gz"
-}
+[
+    {
+        "plugin": "nwrfc-qpe-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qpe-06h/QPE.2022121212.nc.gz",
+        "versioned": false,
+        "name_pattern": "QPE.%Y121212.nc.gz"
+    }
+]
 ```
 
 
@@ -368,13 +457,15 @@
 
 
 ```
-{
-    "plugin": "ncrfc-fmat-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-fmat-01h/msr-coe-1hrT--NCRFC_hourlyFcstT_2022022612.tar.gz",
-    "versioned": true,
-    "name_pattern": "msr-coe-1hrT--NCRFC_hourlyFcstT_202%Y612.tar.gz"
-}
+[
+    {
+        "plugin": "ncrfc-fmat-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-fmat-01h/msr-coe-1hrT--NCRFC_hourlyFcstT_2022022612.tar.gz",
+        "versioned": true,
+        "name_pattern": "msr-coe-1hrT--NCRFC_hourlyFcstT_202%Y612.tar.gz"
+    }
+]
 ```
 
 
@@ -382,13 +473,15 @@
 
 
 ```
-{
-    "plugin": "ncep-mrms-v12-msqpe01h-p1-alaska",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p1-alaska/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
-    "versioned": false,
-    "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
-}
+[
+    {
+        "plugin": "ncep-mrms-v12-msqpe01h-p1-alaska",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p1-alaska/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
+    }
+]
 ```
 
 
@@ -396,13 +489,15 @@
 
 
 ```
-{
-    "plugin": "nwrfc-qpf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qpf-06h/QPF.2022121212.nc.gz",
-    "versioned": true,
-    "name_pattern": "QPF.%Y121212.nc.gz"
-}
+[
+    {
+        "plugin": "nwrfc-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qpf-06h/QPF.2022121212.nc.gz",
+        "versioned": true,
+        "name_pattern": "QPF.%Y121212.nc.gz"
+    }
+]
 ```
 
 
@@ -410,13 +505,15 @@
 
 
 ```
-{
-    "plugin": "serfc-qpe-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/serfc-qpe-01h/xmrg0401202200z.grb.gz",
-    "versioned": false,
-    "name_pattern": "xmrg0401%Y00z.grb.gz"
-}
+[
+    {
+        "plugin": "serfc-qpe-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/serfc-qpe-01h/xmrg0401202200z.grb.gz",
+        "versioned": false,
+        "name_pattern": "xmrg0401%Y00z.grb.gz"
+    }
+]
 ```
 
 
@@ -424,13 +521,15 @@
 
 
 ```
-{
-    "plugin": "cnrfc-nbm-qpf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-nbm-qpf-06h/QPF.20220822_0700.nc.gz",
-    "versioned": true,
-    "name_pattern": "QPF.%Y%m%d_%H00.nc.gz"
-}
+[
+    {
+        "plugin": "cnrfc-nbm-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/cnrfc-nbm-qpf-06h/QPF.20220822_0700.nc.gz",
+        "versioned": true,
+        "name_pattern": "QPF.%Y%m%d_%H00.nc.gz"
+    }
+]
 ```
 
 
@@ -438,13 +537,15 @@
 
 
 ```
-{
-    "plugin": "ndfd-conus-airtemp",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ndfd-conus-airtemp/ds.airtemp_202208010054-1-3.bin",
-    "versioned": true,
-    "name_pattern": "ds.airtemp_%Y08010054-1-3.bin"
-}
+[
+    {
+        "plugin": "ndfd-conus-airtemp",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ndfd-conus-airtemp/ds.airtemp_202208010054-1-3.bin",
+        "versioned": true,
+        "name_pattern": "ds.airtemp_%Y08010054-1-3.bin"
+    }
+]
 ```
 
 
@@ -452,13 +553,15 @@
 
 
 ```
-{
-    "plugin": "ncep-stage4-mosaic-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-stage4-mosaic-06h/st4_conus.2022080718.06h.grb2",
-    "versioned": false,
-    "name_pattern": "st4_conus.%Y080718.06h.grb2"
-}
+[
+    {
+        "plugin": "ncep-stage4-mosaic-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-stage4-mosaic-06h/st4_conus.2022080718.06h.grb2",
+        "versioned": false,
+        "name_pattern": "st4_conus.%Y080718.06h.grb2"
+    }
+]
 ```
 
 
@@ -466,13 +569,15 @@
 
 
 ```
-{
-    "plugin": "mbrfc-krf-qpe-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-qpe-01h/krfqpe_2022080921z.grib.gz",
-    "versioned": false,
-    "name_pattern": "krfqpe_%Y%m%d%hz.grib.gz"
-}
+[
+    {
+        "plugin": "mbrfc-krf-qpe-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-qpe-01h/krfqpe_2022080921z.grib.gz",
+        "versioned": false,
+        "name_pattern": "krfqpe_%Y%m%d%hz.grib.gz"
+    }
+]
 ```
 
 
@@ -480,13 +585,15 @@
 
 
 ```
-{
-    "plugin": "naefs-mean-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/naefs-mean-06h/NAEFSmean_netcdf2022080912.nc",
-    "versioned": true,
-    "name_pattern": "NAEFSmean_netcdf%Y%m%d%H.nc"
-}
+[
+    {
+        "plugin": "naefs-mean-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/naefs-mean-06h/NAEFSmean_netcdf2022080912.nc",
+        "versioned": true,
+        "name_pattern": "NAEFSmean_netcdf%Y%m%d%H.nc"
+    }
+]
 ```
 
 
@@ -494,13 +601,15 @@
 
 
 ```
-{
-    "plugin": "lmrfc-qpe-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/lmrfc-qpe-01h/2022080914z.grib.gz",
-    "versioned": false,
-    "name_pattern": "%Y%m%d%Hz.grib.gz"
-}
+[
+    {
+        "plugin": "lmrfc-qpe-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/lmrfc-qpe-01h/2022080914z.grib.gz",
+        "versioned": false,
+        "name_pattern": "%Y%m%d%Hz.grib.gz"
+    }
+]
 ```
 
 
@@ -508,13 +617,15 @@
 
 
 ```
-{
-    "plugin": "marfc-rtmat-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/marfc-rtmat-01h/RHA_T_RTMA_1hr.2022-08-09.19z.grb",
-    "versioned": false,
-    "name_pattern": "RHA_T_RTMA_1hr.%Y-%m-%d.%Hz.grb"
-}
+[
+    {
+        "plugin": "marfc-rtmat-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/marfc-rtmat-01h/RHA_T_RTMA_1hr.2022-08-09.19z.grb",
+        "versioned": false,
+        "name_pattern": "RHA_T_RTMA_1hr.%Y-%m-%d.%Hz.grb"
+    }
+]
 ```
 
 
@@ -522,13 +633,15 @@
 
 
 ```
-{
-    "plugin": "prism-tmax-early",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmax-early/PRISM_tmax_early_4kmD2_20220808_bil.zip",
-    "versioned": false,
-    "name_pattern": "PRISM_tmax_early_4kmD2_%Y0808_bil.zip"
-}
+[
+    {
+        "plugin": "prism-tmax-early",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmax-early/PRISM_tmax_early_4kmD2_20220808_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_tmax_early_4kmD2_%Y0808_bil.zip"
+    }
+]
 ```
 
 
@@ -536,13 +649,15 @@
 
 
 ```
-{
-    "plugin": "ncep-stage4-mosaic-24h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-stage4-mosaic-24h/st4_conus.2022080512.24h.grb2",
-    "versioned": false,
-    "name_pattern": "st4_conus.%Y080512.24h.grb2"
-}
+[
+    {
+        "plugin": "ncep-stage4-mosaic-24h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-stage4-mosaic-24h/st4_conus.2022080512.24h.grb2",
+        "versioned": false,
+        "name_pattern": "st4_conus.%Y080512.24h.grb2"
+    }
+]
 ```
 
 
@@ -550,13 +665,15 @@
 
 
 ```
-{
-    "plugin": "lmrfc-qpf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/lmrfc-qpf-06h/ORN_QPF_SFC_2022080912_234_2022081906f234.grb.gz",
-    "versioned": true,
-    "name_pattern": "ORN_QPF_SFC_%Y%m%d%H_234_%Y%m%d%Hf234.grb.gz"
-}
+[
+    {
+        "plugin": "lmrfc-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/lmrfc-qpf-06h/ORN_QPF_SFC_2022080912_234_2022081906f234.grb.gz",
+        "versioned": true,
+        "name_pattern": "ORN_QPF_SFC_%Y%m%d%H_234_%Y%m%d%Hf234.grb.gz"
+    }
+]
 ```
 
 
@@ -564,13 +681,15 @@
 
 
 ```
-{
-    "plugin": "nohrsc-snodas-assimilated",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/nohrsc-snodas-assimilated/assim_layers_2022010112.tar",
-    "versioned": false,
-    "name_pattern": "assim_layers_%Y010112.tar"
-}
+[
+    {
+        "plugin": "nohrsc-snodas-assimilated",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/nohrsc-snodas-assimilated/assim_layers_2022010112.tar",
+        "versioned": false,
+        "name_pattern": "assim_layers_%Y010112.tar"
+    }
+]
 ```
 
 
@@ -578,13 +697,15 @@
 
 
 ```
-{
-    "plugin": "ncep-stage4-mosaic-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-stage4-mosaic-01h/st4_conus.2022081004.01h.grb2",
-    "versioned": false,
-    "name_pattern": "st4_conus.%Y081004.01h.grb2"
-}
+[
+    {
+        "plugin": "ncep-stage4-mosaic-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-stage4-mosaic-01h/st4_conus.2022081004.01h.grb2",
+        "versioned": false,
+        "name_pattern": "st4_conus.%Y081004.01h.grb2"
+    }
+]
 ```
 
 
@@ -592,13 +713,15 @@
 
 
 ```
-{
-    "plugin": "mbrfc-krf-qpf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-qpf-06h/krf_qpf_grib_2022080918f168.grb.gz",
-    "versioned": true,
-    "name_pattern": "krf_qpf_grib_%Y%m%d%hf168.grb.gz"
-}
+[
+    {
+        "plugin": "mbrfc-krf-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-qpf-06h/krf_qpf_grib_2022080918f168.grb.gz",
+        "versioned": true,
+        "name_pattern": "krf_qpf_grib_%Y%m%d%hf168.grb.gz"
+    }
+]
 ```
 
 
@@ -606,13 +729,15 @@
 
 
 ```
-{
-    "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass1",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass1/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
-    "versioned": false,
-    "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-150000.grib2.gz"
-}
+[
+    {
+        "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass1",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass1/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-150000.grib2.gz"
+    }
+]
 ```
 
 
@@ -620,13 +745,15 @@
 
 
 ```
-{
-    "plugin": "serfc-qpf-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/serfc-qpf-06h/ALR_QPF_SFC_2022040100_006.grb.gz",
-    "versioned": true,
-    "name_pattern": "ALR_QPF_SFC_%Y040100_006.grb.gz"
-}
+[
+    {
+        "plugin": "serfc-qpf-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/serfc-qpf-06h/ALR_QPF_SFC_2022040100_006.grb.gz",
+        "versioned": true,
+        "name_pattern": "ALR_QPF_SFC_%Y040100_006.grb.gz"
+    }
+]
 ```
 
 
@@ -634,13 +761,15 @@
 
 
 ```
-{
-    "plugin": "prism-ppt-early",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/prism-ppt-early/PRISM_ppt_early_4kmD2_20220808_bil.zip",
-    "versioned": false,
-    "name_pattern": "PRISM_ppt_early_4kmD2_%Y0808_bil.zip"
-}
+[
+    {
+        "plugin": "prism-ppt-early",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/prism-ppt-early/PRISM_ppt_early_4kmD2_20220808_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_ppt_early_4kmD2_%Y0808_bil.zip"
+    }
+]
 ```
 
 
@@ -648,13 +777,15 @@
 
 
 ```
-{
-    "plugin": "marfc-fmat-06h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/marfc-fmat-06h/FMAT12hr_20220601.00z.grb",
-    "versioned": true,
-    "name_pattern": "FMAT12hr_%Y%m%d.00z.grb"
-}
+[
+    {
+        "plugin": "marfc-fmat-06h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/marfc-fmat-06h/FMAT12hr_20220601.00z.grb",
+        "versioned": true,
+        "name_pattern": "FMAT12hr_%Y%m%d.00z.grb"
+    }
+]
 ```
 
 
@@ -662,13 +793,15 @@
 
 
 ```
-{
-    "plugin": "cbrfc-mpe",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/cbrfc-mpe/xmrg0809202212z.grb",
-    "versioned": false,
-    "name_pattern": "xmrg%m%d%Y12z.grb"
-}
+[
+    {
+        "plugin": "cbrfc-mpe",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/cbrfc-mpe/xmrg0809202212z.grb",
+        "versioned": false,
+        "name_pattern": "xmrg%m%d%Y12z.grb"
+    }
+]
 ```
 
 
@@ -676,13 +809,15 @@
 
 
 ```
-{
-    "plugin": "ncrfc-mpe-01h",
-    "url": "",
-    "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-mpe-01h/MSR_mpe-lx_2022080922z.grb",
-    "versioned": false,
-    "name_pattern": "MSR_mpe-lx_%Y%m%d22z.grb"
-}
+[
+    {
+        "plugin": "ncrfc-mpe-01h",
+        "url": "",
+        "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-mpe-01h/MSR_mpe-lx_2022080922z.grb",
+        "versioned": false,
+        "name_pattern": "MSR_mpe-lx_%Y%m%d22z.grb"
+    }
+]
 ```
 
 
