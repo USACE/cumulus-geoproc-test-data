@@ -16,12 +16,12 @@ jobs:
 
       - name: Tar Test Grids
         run: |
-          tar -czf ${{ github.workspace }}/cumulus-geoproc-test-data_${{ github.ref_name }}.tar.gz \
+          tar -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz \
             -C ${{ github.workspace }}/fixtures .
 
       - uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          artifacts: "${{ github.workspace }}/cumulus-geoproc-test-data_${{ github.ref_name }}.tar.gz "
+          artifacts: "${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz "
           bodyFile: ${{ github.workspace }}/README.md
           makeLatest: true
