@@ -18,8 +18,7 @@ jobs:
         run: |
           tar --exclude ".*" \
               --exclude "*.properties" \
-              -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz \
-              -C ${{ github.workspace }}/fixtures .
+              -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz ./fixtures
 
       - uses: ncipollo/release-action@v1
         with:
