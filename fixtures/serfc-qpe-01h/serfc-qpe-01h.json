@@ -2,7 +2,7 @@
     {
         "plugin": "serfc-qpe-01h",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/serfc-qpe-01h/xmrg0401202200z.grb.gz",
+        "local_source": "fixtures/serfc-qpe-01h/xmrg0401202200z.grb.gz",
         "versioned": false,
         "name_pattern": "xmrg0401%Y00z.grb.gz"
     }

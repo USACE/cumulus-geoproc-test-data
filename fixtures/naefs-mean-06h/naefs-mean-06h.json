@@ -2,7 +2,7 @@
     {
         "plugin": "naefs-mean-06h",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/naefs-mean-06h/NAEFSmean_netcdf2022080912.nc",
+        "local_source": "fixtures/naefs-mean-06h/NAEFSmean_netcdf2022080912.nc",
         "versioned": true,
         "name_pattern": "NAEFSmean_netcdf%Y%m%d%H.nc"
     }

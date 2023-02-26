@@ -15,14 +15,14 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Add Big Grids
-        run: python3 add_big_grids
+        run: python3 add_big_grids.py
 
       - name: Tar Test Grids
         run: |
           tar -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz ./fixtures
 
       - name: Update README
-        run: python3 gen_markdown
+        run: python3 gen_markdown.py
 
       - uses: ncipollo/release-action@v1
         with:

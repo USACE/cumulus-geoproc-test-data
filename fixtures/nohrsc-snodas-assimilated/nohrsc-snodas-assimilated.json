@@ -2,7 +2,7 @@
     {
         "plugin": "nohrsc-snodas-assimilated",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/nohrsc-snodas-assimilated/assim_layers_2022010112.tar",
+        "local_source": "fixtures/nohrsc-snodas-assimilated/assim_layers_2022010112.tar",
         "versioned": false,
         "name_pattern": "assim_layers_%Y010112.tar"
     }

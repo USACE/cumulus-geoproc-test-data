@@ -2,7 +2,7 @@
     {
         "plugin": "ncrfc-rtmat-01h",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-rtmat-01h/msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_2022080921z.grb",
+        "local_source": "fixtures/ncrfc-rtmat-01h/msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_2022080921z.grb",
         "versioned": false,
         "name_pattern": "msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_%Y%m%d21z.grb"
     }

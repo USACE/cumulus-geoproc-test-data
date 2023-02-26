@@ -2,7 +2,7 @@
     {
         "plugin": "abrfc-qpe-01h",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2022080816Z.nc",
+        "local_source": "fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2022080816Z.nc",
         "versioned": false,
         "name_pattern": "abrfc_qpe_01hr_%Y%m%d%HZ.nc"
     }

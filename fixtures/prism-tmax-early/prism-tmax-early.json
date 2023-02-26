@@ -2,7 +2,7 @@
     {
         "plugin": "prism-tmax-early",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmax-early/PRISM_tmax_early_4kmD2_20220808_bil.zip",
+        "local_source": "fixtures/prism-tmax-early/PRISM_tmax_early_4kmD2_20220808_bil.zip",
         "versioned": false,
         "name_pattern": "PRISM_tmax_early_4kmD2_%Y0808_bil.zip"
     }

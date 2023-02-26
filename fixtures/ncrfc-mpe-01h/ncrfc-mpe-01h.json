@@ -2,7 +2,7 @@
     {
         "plugin": "ncrfc-mpe-01h",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/ncrfc-mpe-01h/MSR_mpe-lx_2022080922z.grb",
+        "local_source": "fixtures/ncrfc-mpe-01h/MSR_mpe-lx_2022080922z.grb",
         "versioned": false,
         "name_pattern": "MSR_mpe-lx_%Y%m%d22z.grb"
     }

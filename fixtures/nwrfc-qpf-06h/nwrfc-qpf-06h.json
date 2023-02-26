@@ -2,7 +2,7 @@
     {
         "plugin": "nwrfc-qpf-06h",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/nwrfc-qpf-06h/QPF.2022121212.nc.gz",
+        "local_source": "fixtures/nwrfc-qpf-06h/QPF.2022121212.nc.gz",
         "versioned": true,
         "name_pattern": "QPF.%Y121212.nc.gz"
     }

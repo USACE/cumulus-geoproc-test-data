@@ -2,7 +2,7 @@
     {
         "plugin": "ncep-mrms-v12-msqpe01h-p1-alaska",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/ncep-mrms-v12-msqpe01h-p1-alaska/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
+        "local_source": "fixtures/ncep-mrms-v12-msqpe01h-p1-alaska/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
         "versioned": false,
         "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
     }

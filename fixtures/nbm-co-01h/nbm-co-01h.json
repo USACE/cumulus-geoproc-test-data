@@ -2,7 +2,7 @@
     {
         "plugin": "nbm-co-01h",
         "url": null,
-        "local_source": "cumulus-geoproc-test-data/fixtures/nbm-co-01h/blend.t00z.core.f001.co.grib2",
+        "local_source": "fixtures/nbm-co-01h/blend.t00z.core.f001.co.grib2",
         "versioned": true,
         "products": 2,
         "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
@@ -22,7 +22,7 @@
     {
         "plugin": "nbm-co-01h",
         "url": null,
-        "local_source": "cumulus-geoproc-test-data/fixtures/nbm-co-01h/blend.t00z.core.f002.co.grib2",
+        "local_source": "fixtures/nbm-co-01h/blend.t00z.core.f002.co.grib2",
         "versioned": true,
         "products": 2,
         "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",

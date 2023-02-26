@@ -2,7 +2,7 @@
     {
         "plugin": "hrrr-total-precip",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf00.grib2",
+        "local_source": "fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf00.grib2",
         "versioned": true,
         "products": 0,
         "name_pattern": "hrrr.t00z.wrfsfcf00.grib2",
@@ -23,7 +23,7 @@
     {
         "plugin": "hrrr-total-precip",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf06.grib2",
+        "local_source": "fixtures/hrrr-total-precip/hrrr.t00z.wrfsfcf06.grib2",
         "versioned": true,
         "name_pattern": "hrrr.t00z.wrfsfcf06.grib2",
         "attr": {

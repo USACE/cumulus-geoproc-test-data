@@ -2,7 +2,7 @@
     {
         "plugin": "mbrfc-krf-qpf-06h",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/mbrfc-krf-qpf-06h/krf_qpf_grib_2022080918f168.grb.gz",
+        "local_source": "fixtures/mbrfc-krf-qpf-06h/krf_qpf_grib_2022080918f168.grb.gz",
         "versioned": true,
         "name_pattern": "krf_qpf_grib_%Y%m%d%hf168.grb.gz"
     }

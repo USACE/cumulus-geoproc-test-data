@@ -2,7 +2,7 @@
     {
         "plugin": "prism-tmin-stable",
         "url": "",
-        "local_source": "cumulus-geoproc-test-data/fixtures/prism-tmin-stable/PRISM_tmin_stable_4kmD2_19810929_bil.zip",
+        "local_source": "fixtures/prism-tmin-stable/PRISM_tmin_stable_4kmD2_19810929_bil.zip",
         "versioned": false,
         "name_pattern": "PRISM_tmin_stable_4kmD2_19810929_bil.zip"
     }
