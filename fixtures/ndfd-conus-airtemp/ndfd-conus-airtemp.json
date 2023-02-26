@@ -9,7 +9,7 @@
     {
         "plugin": "ndfd-conus-airtemp",
         "url": "",
-        "local_source": "fixtures/ndfd-conus-airtemp/ds.airtemp_202208010533-4-7",
+        "local_source": "fixtures/ndfd-conus-airtemp/ds.airtemp_202208010533-4-7.bin",
         "versioned": true,
         "name_pattern": "ds.airtemp_202208010533-4-7.bin"
     }
