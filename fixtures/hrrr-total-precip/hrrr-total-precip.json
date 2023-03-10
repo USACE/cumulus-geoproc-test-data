@@ -7,7 +7,7 @@
         "products": 0,
         "name_pattern": "hrrr.t00z.wrfsfcf00.grib2",
         "attr": {
-            "90": {
+            "0": {
                 "GRIB_COMMENT": "01 hr Total precipitation [kg/(m^2)]",
                 "GRIB_ELEMENT": "APCP01",
                 "GRIB_UNIT": "[kg/(m^2)]"

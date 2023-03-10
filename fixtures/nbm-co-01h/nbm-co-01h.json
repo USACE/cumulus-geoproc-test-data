@@ -7,13 +7,13 @@
         "products": 2,
         "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
         "attr": {
-            "54": {
+            "273": {
                 "GRIB_COMMENT": "Temperature [C]",
                 "GRIB_ELEMENT": "T",
                 "GRIB_SHORT_NAME": "2-HTGL",
                 "GRIB_UNIT": "[C]"
             },
-            "46": {
+            "234": {
                 "GRIB_ELEMENT": "QPF01",
                 "GRIB_SHORT_NAME": "0-SFC"
             }
@@ -27,13 +27,13 @@
         "products": 2,
         "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
         "attr": {
-            "54": {
+            "273": {
                 "GRIB_COMMENT": "Temperature [C]",
                 "GRIB_ELEMENT": "T",
                 "GRIB_SHORT_NAME": "2-HTGL",
                 "GRIB_UNIT": "[C]"
             },
-            "46": {
+            "234": {
                 "GRIB_ELEMENT": "QPF01",
                 "GRIB_SHORT_NAME": "0-SFC"
             }

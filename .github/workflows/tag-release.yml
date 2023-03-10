@@ -21,12 +21,9 @@ jobs:
         run: |
           tar -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz ./fixtures
 
-      - name: Update README
-        run: python3 gen_markdown.py
-
       - uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
           artifacts: "${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz"
-          bodyFile: ${{ github.workspace }}/README.md
+          bodyFile: ${{ github.workspace }}/RELEASE.md
           makeLatest: true
