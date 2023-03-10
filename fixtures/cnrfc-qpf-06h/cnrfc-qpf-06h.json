@@ -1,0 +1,16 @@
+[
+    {
+        "plugin": "cnrfc-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/cnrfc-qpf-06h/qpf.20221201_1200.nc.gz",
+        "versioned": true,
+        "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
+    },
+    {
+        "plugin": "cnrfc-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/cnrfc-qpf-06h/qpf.20221208_1200.nc.gz",
+        "versioned": true,
+        "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
+    }
+]

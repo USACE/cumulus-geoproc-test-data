@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "cnrfc-nbm-qtf-01h",
+        "url": "",
+        "local_source": "fixtures/cnrfc-nbm-qtf-01h/fcstTemperature.20221208_0700.nc.gz",
+        "versioned": true,
+        "name_pattern": "fcstTemperature.%Y%m%d_%H00.nc.gz"
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "marfc-nbmt-01h",
+        "url": "",
+        "local_source": "fixtures/marfc-nbmt-01h/RHA_T_NBM_9hr.2022-08-09.20z.grb",
+        "versioned": true,
+        "name_pattern": "RHA_T_NBM_9hr.%Y-%m-%d.%Hz.grb"
+    }
+]

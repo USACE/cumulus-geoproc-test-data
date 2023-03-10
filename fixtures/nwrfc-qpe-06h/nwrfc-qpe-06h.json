@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "nwrfc-qpe-06h",
+        "url": "",
+        "local_source": "fixtures/nwrfc-qpe-06h/QPE.2022121212.nc.gz",
+        "versioned": false,
+        "name_pattern": "QPE.%Y121212.nc.gz"
+    }
+]

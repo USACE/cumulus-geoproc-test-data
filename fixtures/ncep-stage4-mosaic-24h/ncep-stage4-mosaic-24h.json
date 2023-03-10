@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "ncep-stage4-mosaic-24h",
+        "url": "",
+        "local_source": "fixtures/ncep-stage4-mosaic-24h/st4_conus.2022080512.24h.grb2",
+        "versioned": false,
+        "name_pattern": "st4_conus.%Y080512.24h.grb2"
+    }
+]

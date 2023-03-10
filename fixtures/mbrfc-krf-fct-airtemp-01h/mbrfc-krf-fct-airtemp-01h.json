@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "mbrfc-krf-fct-airtemp-01h",
+        "url": "",
+        "local_source": "fixtures/mbrfc-krf-fct-airtemp-01h/krf_hourly_ftemps_grib_2022082501f373.grb.gz",
+        "versioned": true,
+        "name_pattern": "krf_hourly_ftemps_grib_%Y%m%d%Hf373.grb.gz"
+    }
+]

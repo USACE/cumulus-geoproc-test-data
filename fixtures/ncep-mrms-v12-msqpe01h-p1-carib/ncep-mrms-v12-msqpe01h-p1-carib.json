@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "ncep-mrms-v12-msqpe01h-p1-carib",
+        "url": "",
+        "local_source": "fixtures/ncep-mrms-v12-msqpe01h-p1-carib/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
+    }
+]

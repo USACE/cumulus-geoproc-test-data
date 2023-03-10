@@ -1,0 +1,30 @@
+[
+    {
+        "plugin": "marfc-fmat-06h",
+        "url": "",
+        "local_source": "fixtures/marfc-fmat-06h/FMAT12hr_20220601.00z.grb",
+        "versioned": true,
+        "name_pattern": "FMAT12hr_%Y%m%d.00z.grb"
+    },
+    {
+        "plugin": "marfc-fmat-06h",
+        "url": "",
+        "local_source": "fixtures/marfc-fmat-06h/FMAT12hr_20220601.06z.grb",
+        "versioned": true,
+        "name_pattern": "FMAT12hr_%Y%m%d.00z.grb"
+    },
+    {
+        "plugin": "marfc-fmat-06h",
+        "url": "",
+        "local_source": "fixtures/marfc-fmat-06h/FMAT12hr_20220601.12z.grb",
+        "versioned": true,
+        "name_pattern": "FMAT12hr_%Y%m%d.00z.grb"
+    },
+    {
+        "plugin": "marfc-fmat-06h",
+        "url": "",
+        "local_source": "fixtures/marfc-fmat-06h/FMAT12hr_20220601.18z.grb",
+        "versioned": true,
+        "name_pattern": "FMAT12hr_%Y%m%d.00z.grb"
+    }
+]

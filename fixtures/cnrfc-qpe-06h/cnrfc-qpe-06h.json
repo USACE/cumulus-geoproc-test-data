@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "cnrfc-qpe-06h",
+        "url": "",
+        "local_source": "fixtures/cnrfc-qpe-06h/qpe.20220803_1200.nc.gz",
+        "versioned": false,
+        "name_pattern": "qpe.%Y%m%d_%H00.nc.gz"
+    }
+]

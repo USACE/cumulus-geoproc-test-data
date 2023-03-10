@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "prism-ppt-stable",
+        "url": "",
+        "local_source": "fixtures/prism-ppt-stable/PRISM_ppt_stable_4kmD2_19810929_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_ppt_stable_4kmD2_19810929_bil.zip"
+    }
+]

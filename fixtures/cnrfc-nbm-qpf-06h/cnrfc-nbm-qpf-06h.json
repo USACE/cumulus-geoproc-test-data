@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "cnrfc-nbm-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/cnrfc-nbm-qpf-06h/QPF.20220822_0700.nc.gz",
+        "versioned": true,
+        "name_pattern": "QPF.%Y%m%d_%H00.nc.gz"
+    }
+]

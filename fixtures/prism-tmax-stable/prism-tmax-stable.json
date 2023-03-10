@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "prism-tmax-stable",
+        "url": "",
+        "local_source": "fixtures/prism-tmax-stable/PRISM_tmax_stable_4kmD2_19810929_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_tmax_stable_4kmD2_19810929_bil.zip"
+    }
+]

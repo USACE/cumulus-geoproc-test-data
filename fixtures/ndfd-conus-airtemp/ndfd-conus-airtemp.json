@@ -1,0 +1,16 @@
+[
+    {
+        "plugin": "ndfd-conus-airtemp",
+        "url": "",
+        "local_source": "fixtures/ndfd-conus-airtemp/ds.airtemp_202208010054-1-3.bin",
+        "versioned": true,
+        "name_pattern": "ds.airtemp_%Y08010054-1-3.bin"
+    },
+    {
+        "plugin": "ndfd-conus-airtemp",
+        "url": "",
+        "local_source": "fixtures/ndfd-conus-airtemp/ds.airtemp_202208010533-4-7.bin",
+        "versioned": true,
+        "name_pattern": "ds.airtemp_202208010533-4-7.bin"
+    }
+]

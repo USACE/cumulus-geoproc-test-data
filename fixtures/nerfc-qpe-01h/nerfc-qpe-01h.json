@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "nerfc-qpe-01h",
+        "url": "",
+        "local_source": "fixtures/nerfc-qpe-01h/xmrg1207202215z.grb.gz",
+        "versioned": false,
+        "name_pattern": "xmrg1207%Y15z.grb.gz"
+    }
+]

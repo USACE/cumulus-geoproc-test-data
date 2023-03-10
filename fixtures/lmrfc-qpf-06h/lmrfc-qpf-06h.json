@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "lmrfc-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/lmrfc-qpf-06h/ORN_QPF_SFC_2022080912_234_2022081906f234.grb.gz",
+        "versioned": true,
+        "name_pattern": "ORN_QPF_SFC_%Y%m%d%H_234_%Y%m%d%Hf234.grb.gz"
+    }
+]

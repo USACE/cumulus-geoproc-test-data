@@ -14,15 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Add Big Grids
+        run: python3 add_big_grids.py
+
       - name: Tar Test Grids
         run: |
-          tar --exclude ".*" \
-              --exclude "*.properties" \
-              -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz ./fixtures
+          tar -czf ${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz ./fixtures
 
       - uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          artifacts: "${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz "
-          bodyFile: ${{ github.workspace }}/README.md
+          artifacts: "${{ github.workspace }}/cumulus-geoproc-test-data.tar.gz"
+          bodyFile: ${{ github.workspace }}/RELEASE.md
           makeLatest: true

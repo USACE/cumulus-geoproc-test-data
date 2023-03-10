@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "prism-ppt-early",
+        "url": "",
+        "local_source": "fixtures/prism-ppt-early/PRISM_ppt_early_4kmD2_20220808_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_ppt_early_4kmD2_%Y0808_bil.zip"
+    }
+]

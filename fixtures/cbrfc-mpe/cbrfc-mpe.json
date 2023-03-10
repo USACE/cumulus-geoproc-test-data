@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "cbrfc-mpe",
+        "url": "",
+        "local_source": "fixtures/cbrfc-mpe/xmrg0809202212z.grb",
+        "versioned": false,
+        "name_pattern": "xmrg%m%d%Y12z.grb"
+    }
+]

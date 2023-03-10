@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "lmrfc-qpe-01h",
+        "url": "",
+        "local_source": "fixtures/lmrfc-qpe-01h/2022080914z.grib.gz",
+        "versioned": false,
+        "name_pattern": "%Y%m%d%Hz.grib.gz"
+    }
+]
