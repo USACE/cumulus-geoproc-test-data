@@ -458,13 +458,7 @@
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f001.co.grib2",
         "versioned": true,
         "products": 1,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
-        "attr": {
-            "235": {
-                "GRIB_ELEMENT": "QPF01",
-                "GRIB_SHORT_NAME": "0-SFC"
-            }
-        }
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     },
     {
         "plugin": "nbm-co-qpf-06h",
@@ -472,13 +466,7 @@
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
         "versioned": true,
         "products": 1,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
-        "attr": {
-            "35": {
-                "GRIB_ELEMENT": "QPF06",
-                "GRIB_SHORT_NAME": "0-SFC"
-            }
-        }
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     },
     {
         "plugin": "nbm-co-qtf-01h",
@@ -486,15 +474,7 @@
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f001.co.grib2",
         "versioned": true,
         "products": 1,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
-        "attr": {
-            "279": {
-                "GRIB_COMMENT": "Temperature [C]",
-                "GRIB_ELEMENT": "T",
-                "GRIB_SHORT_NAME": "2-HTGL",
-                "GRIB_UNIT": "[C]"
-            }
-        }
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     },
     {
         "plugin": "nbm-co-qtf-03h",
@@ -502,15 +482,7 @@
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f100.co.grib2",
         "versioned": true,
         "products": 1,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
-        "attr": {
-            "41": {
-                "GRIB_COMMENT": "Temperature [C]",
-                "GRIB_ELEMENT": "T",
-                "GRIB_SHORT_NAME": "2-HTGL",
-                "GRIB_UNIT": "[C]"
-            }
-        }
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     },
     {
         "plugin": "nbm-co-qtf-06h",
@@ -518,15 +490,7 @@
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
         "versioned": true,
         "products": 1,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2",
-        "attr": {
-            "43": {
-                "GRIB_COMMENT": "Temperature [C]",
-                "GRIB_ELEMENT": "T",
-                "GRIB_SHORT_NAME": "2-HTGL",
-                "GRIB_UNIT": "[C]"
-            }
-        }
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     }
 ]
 ```
