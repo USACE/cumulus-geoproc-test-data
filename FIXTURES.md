@@ -464,8 +464,8 @@
         "plugin": "nbm-co-qpf-06h",
         "url": null,
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
-        "versioned": true,
-        "products": 1,
+        "versioned": false,
+        "products": 0,
         "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     },
     {
@@ -480,8 +480,8 @@
         "plugin": "nbm-co-qtf-03h",
         "url": null,
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f100.co.grib2",
-        "versioned": true,
-        "products": 1,
+        "versioned": false,
+        "products": 0,
         "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     },
     {
@@ -489,7 +489,7 @@
         "url": null,
         "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
         "versioned": true,
-        "products": 1,
+        "products": 0,
         "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     }
 ]
