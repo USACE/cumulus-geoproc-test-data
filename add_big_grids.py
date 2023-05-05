@@ -25,6 +25,17 @@ BIG_GRIDS = {
             "https://nomads.ncep.noaa.gov/pub/data/nccf/com/blend/prod/blend.%Y%m%d/00/core/blend.t00z.core.f002.co.grib2"
         ),
     ],
+    "nbm-conus": [
+        yesterday.strftime(
+            "https://nomads.ncep.noaa.gov/pub/data/nccf/com/blend/prod/blend.%Y%m%d/00/core/blend.t00z.core.f001.co.grib2"
+        ),
+        yesterday.strftime(
+            "https://nomads.ncep.noaa.gov/pub/data/nccf/com/blend/prod/blend.%Y%m%d/00/core/blend.t00z.core.f100.co.grib2"
+        ),
+        yesterday.strftime(
+            "https://nomads.ncep.noaa.gov/pub/data/nccf/com/blend/prod/blend.%Y%m%d/00/core/blend.t00z.core.f205.co.grib2"
+        ),
+    ],
 }
 
 
