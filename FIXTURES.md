@@ -812,7 +812,7 @@
         "plugin": "abrfc-qpf-06h",
         "url": "",
         "local_source": "fixtures/abrfc-qpf-06h/2023090612f060.nc.gz",
-        "versioned": false,
+        "versioned": true,
         "name_pattern": "%Y%m%d%Hf060.nc.gz"
     }
 ]
