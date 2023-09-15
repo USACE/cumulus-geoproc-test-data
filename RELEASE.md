@@ -1,17 +1,8 @@
 # Release Notes
 
-## NBM CONUS
+## ABRFC QPF
 
-NBM CONUS fixture now contains configurations for QPF and QTF testing
+ABRFC fixture now contains configurations for QPF testing
 
 - QPF
-  - 1 hour
   - 6 hour
-- QTF
-  - 1 hour
-  - 3 hour
-  - 6 hour
-
-NBM files too large for the repository and acquired when release is built
-
-Finding bands by attribute not tested due to variable band assignment
