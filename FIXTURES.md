@@ -811,9 +811,9 @@
     {
         "plugin": "abrfc-qpf-06h",
         "url": "",
-        "local_source": "fixtures/abrfc-qpf-06h/2023090612f060.nc.gz",
+        "local_source": "fixtures/abrfc-qpf-06h/QPF6_2023091912f060.cdf",
         "versioned": true,
-        "name_pattern": "%Y%m%d%Hf060.nc.gz"
+        "name_pattern": "QPF6_%Y%m%d%Hf060.nc.gz"
     }
 ]
 ```
