@@ -464,7 +464,7 @@
         "plugin": "aprfc-qpe-06h",
         "url": "https://cbt.crohms.org/akgrids",
         "local_source": "fixtures/aprfc-qpe-06h/precip_acr_grid_06_12_20231104.grb.gz",
-        "versioned": true,
+        "versioned": false,
         "name_pattern": "precip_acr_grid_06_12_%y%m%d.grb.gz"
     }
 ]
