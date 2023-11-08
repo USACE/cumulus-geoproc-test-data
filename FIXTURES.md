@@ -112,22 +112,6 @@
 ```
 
 
-## Plugin: `aprfc_qpf_06h`
-
-
-```
-[
-    {
-        "plugin": "aprfc-qpf-06h",
-        "url": "https://cbt.crohms.org/akgrids",
-        "local_source": "fixtures/aprfc-qpf-06h/qpf06f_has_96f_20231108_12_awips_202311040704.grb.gz",
-        "versioned": true,
-        "name_pattern": "qpf06f_has_96f_%Y%m%d_%H_awips_%Y%m%d%H%M.grb.gz"
-    }
-]
-```
-
-
 ## Plugin: `prism-ppt-early`
 
 
@@ -455,7 +439,7 @@
 ```
 
 
-## Plugin: `aprfc_qpe_06h`
+## Plugin: `aprfc-qpe-06h`
 
 
 ```
@@ -766,6 +750,22 @@
         "local_source": "fixtures/lmrfc-qpf-06h/ORN_QPF_SFC_2022080912_234_2022081906f234.grb.gz",
         "versioned": true,
         "name_pattern": "ORN_QPF_SFC_%Y%m%d%H_234_%Y%m%d%Hf234.grb.gz"
+    }
+]
+```
+
+
+## Plugin: `aprfc-qpf-06h`
+
+
+```
+[
+    {
+        "plugin": "aprfc-qpf-06h",
+        "url": "https://cbt.crohms.org/akgrids",
+        "local_source": "fixtures/aprfc-qpf-06h/qpf06f_has_96f_20231108_12_awips_202311040704.grb.gz",
+        "versioned": true,
+        "name_pattern": "qpf06f_has_96f_%Y%m%d_%H_awips_%Y%m%d%H%M.grb.gz"
     }
 ]
 ```
