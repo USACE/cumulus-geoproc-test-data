@@ -1,10 +1,8 @@
 # Release Notes
 
-## ABRFC QPF
+## AORC CSU Archive
 
-ABRFC fixture now contains configurations for QPF testing
+Fixture added for AORC 800m precipitation data archived by CSU
 
-- QPF
-  - 6 hour
-  - update .json file versioned = true
-  - updated ABRFC QPF to new file
+- Precip
+  - 1 hour
