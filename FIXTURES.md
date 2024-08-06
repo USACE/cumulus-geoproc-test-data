@@ -803,6 +803,23 @@
 ```
 
 
+## Plugin: `aprfc-qte-01h`
+
+
+
+```
+[
+    {
+        "plugin": "aprfc-qte-01h",
+        "url": null,
+        "local_source": "fixtures/aprfc-qte-1h/20240731_akurma.t11z.2dvaranl_ndfd_3p0.grb2.gz",
+        "versioned": false,
+        "name_pattern": "%y%m%d_akurma.t%hz.2dvaranl_ndfd_3p0.grb2.gz"
+    }
+]
+```
+
+
 ## Plugin: `ncep-mrms-v12-msqpe01h-p1-alaska`
 
 
