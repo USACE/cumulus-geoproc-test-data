@@ -817,7 +817,6 @@
         "name_pattern": "%y%m%d_akurma.t%hz.2dvaranl_ndfd_3p0.grb2.gz"
     }
 ]
-
 ```
 
 
