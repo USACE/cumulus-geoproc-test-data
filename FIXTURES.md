@@ -160,22 +160,6 @@
 ```
 
 
-## Plugin: `aorc-csu-precip`
-
-
-```
-[
-    {
-        "plugin": "aorc-csu-precip",
-        "url": "",
-        "local_source": "fixtures/aorc-csu-precip/AORC_1.1_APCP_surface_2021123003.nc4",
-        "versioned": false,
-        "name_pattern": "AORC_1.1_APCP_surface_%Y%m%d%H.nc4"
-    }
-]
-```
-
-
 ## Plugin: `ncep-stage4-mosaic-01h`
 
 
