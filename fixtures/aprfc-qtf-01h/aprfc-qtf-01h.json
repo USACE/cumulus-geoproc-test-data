@@ -1,0 +1,9 @@
+[
+    {
+        "plugin": "aprfc-qtf-01h",
+        "url": "https://cbt.crohms.org/akgrids",
+        "local_source": "fixtures/aprfc-qtf-01h/ta01f_has_21f_20241214_09_awips_202412130008.grb.gz",
+        "versioned": true,
+        "name_pattern": "ta01f_has_21f_%Y%m%d_%H_awips_%Y%m%d%H%M.grb.gz"
+    }
+]
