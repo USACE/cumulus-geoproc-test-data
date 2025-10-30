@@ -2,8 +2,8 @@
     {
         "plugin": "abrfc-qpe-01h",
         "url": "",
-        "local_source": "fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2022080816Z.nc",
+        "local_source": "fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2025102413Z.nc.gz",
         "versioned": false,
-        "name_pattern": "abrfc_qpe_01hr_%Y%m%d%HZ.nc"
+        "name_pattern": "abrfc_qpe_01hr_%Y%m%d%HZ.nc.gz"
     }
 ]
