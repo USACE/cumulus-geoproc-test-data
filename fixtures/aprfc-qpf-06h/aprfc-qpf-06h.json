@@ -2,8 +2,8 @@
     {
         "plugin": "aprfc-qpf-06h",
         "url": "https://cbt.crohms.org/akgrids",
-        "local_source": "fixtures/aprfc-qpf-06h/qpf06f_has_96f_20231108_12_awips_202311040704.grb.gz",
+        "local_source": "fixtures/aprfc-qpf-06h/qpf06f_has_NNNf_YYYYMMDD_HH_awips_202510140703_2025101418f006.3339381911.grb.gz",
         "versioned": true,
-        "name_pattern": "qpf06f_has_96f_%Y%m%d_%H_awips_%Y%m%d%H%M.grb.gz"
+        "name_pattern": "qpf06f_has_NNNf_YYYYMMDD_HH_awips_%Y%m%d%H%M_%Y%m%d_%Hf*.grb.gz"
     }
 ]
