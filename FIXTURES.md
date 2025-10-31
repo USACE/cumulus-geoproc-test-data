@@ -1,37 +1,5 @@
 # Fixtures
 
-## Plugin: `ncep-mrms-v12-multisensor-qpe-01h-pass1`
-
-
-```
-[
-    {
-        "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass1",
-        "url": "",
-        "local_source": "fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass1/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
-        "versioned": false,
-        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-150000.grib2.gz"
-    }
-]
-```
-
-
-## Plugin: `ncep-stage4-mosaic-24h`
-
-
-```
-[
-    {
-        "plugin": "ncep-stage4-mosaic-24h",
-        "url": "",
-        "local_source": "fixtures/ncep-stage4-mosaic-24h/st4_conus.2022080512.24h.grb2",
-        "versioned": false,
-        "name_pattern": "st4_conus.%Y080512.24h.grb2"
-    }
-]
-```
-
-
 ## Plugin: `cbrfc-mpe`
 
 
@@ -48,97 +16,81 @@
 ```
 
 
-## Plugin: `aprfc-qtf-01h`
+## Plugin: `aprfc-qte-01h`
 
 
 ```
 [
     {
-        "plugin": "aprfc-qtf-01h",
-        "url": "https://cbt.crohms.org/akgrids",
-        "local_source": "fixtures/aprfc-qtf-01h/ta01f_has_NNNf_YYYYMMDD_HH_awips_202510131109_2025102312f240.grb.gz",
-        "versioned": true,
-        "name_pattern": "ta01f_has_NNNf_YYYYMMDD_HH_awips_%Y%m%d%H%M_%Y%m%d_%Hf*.grb.gz"
-    }
-]
-```
-
-
-## Plugin: `prism-ppt-early`
-
-
-```
-[
-    {
-        "plugin": "prism-ppt-early",
-        "url": "",
-        "local_source": "fixtures/prism-ppt-early/PRISM_ppt_early_4kmD2_20220808_bil.zip",
+        "plugin": "aprfc-qte-01h",
+        "url": null,
+        "local_source": "fixtures/aprfc-qte-01h/20241123_akurma.t21z.2dvaranl_ndfd_3p0.grb2",
         "versioned": false,
-        "name_pattern": "PRISM_ppt_early_4kmD2_%Y0808_bil.zip"
+        "name_pattern": "%Y%m%d_akurma.t%Hz.2dvaranl_ndfd_3p0.grb2"
     }
 ]
 ```
 
 
-## Plugin: `nohrsc-snodas-unmasked`
+## Plugin: `prism-ppt-stable`
 
 
 ```
 [
     {
-        "plugin": "nohrsc-snodas-unmasked",
+        "plugin": "prism-ppt-stable",
         "url": "",
-        "local_source": "fixtures/nohrsc-snodas-unmasked/SNODAS_unmasked_20180115.tar",
+        "local_source": "fixtures/prism-ppt-stable/PRISM_ppt_stable_4kmD2_19810929_bil.zip",
         "versioned": false,
-        "name_pattern": "SNODAS_unmasked_20180115.tar"
+        "name_pattern": "PRISM_ppt_stable_4kmD2_19810929_bil.zip"
     }
 ]
 ```
 
 
-## Plugin: `nwrfc-qpf-06h`
+## Plugin: `prism-tmin-stable`
 
 
 ```
 [
     {
-        "plugin": "nwrfc-qpf-06h",
+        "plugin": "prism-tmin-stable",
         "url": "",
-        "local_source": "fixtures/nwrfc-qpf-06h/QPF.2022121212.nc.gz",
-        "versioned": true,
-        "name_pattern": "QPF.%Y121212.nc.gz"
-    }
-]
-```
-
-
-## Plugin: `prism-tmax-early`
-
-
-```
-[
-    {
-        "plugin": "prism-tmax-early",
-        "url": "",
-        "local_source": "fixtures/prism-tmax-early/PRISM_tmax_early_4kmD2_20220808_bil.zip",
+        "local_source": "fixtures/prism-tmin-stable/PRISM_tmin_stable_4kmD2_19810929_bil.zip",
         "versioned": false,
-        "name_pattern": "PRISM_tmax_early_4kmD2_%Y0808_bil.zip"
+        "name_pattern": "PRISM_tmin_stable_4kmD2_19810929_bil.zip"
     }
 ]
 ```
 
 
-## Plugin: `naefs-mean-06h`
+## Plugin: `mbrfc-krf-fct-airtemp-01h`
 
 
 ```
 [
     {
-        "plugin": "naefs-mean-06h",
+        "plugin": "mbrfc-krf-fct-airtemp-01h",
         "url": "",
-        "local_source": "fixtures/naefs-mean-06h/NAEFSmean_netcdf2022080912.nc",
+        "local_source": "fixtures/mbrfc-krf-fct-airtemp-01h/krf_hourly_ftemps_grib_2022082501f373.grb.gz",
         "versioned": true,
-        "name_pattern": "NAEFSmean_netcdf%Y%m%d%H.nc"
+        "name_pattern": "krf_hourly_ftemps_grib_%Y%m%d%Hf373.grb.gz"
+    }
+]
+```
+
+
+## Plugin: `marfc-nbmt-01h`
+
+
+```
+[
+    {
+        "plugin": "marfc-nbmt-01h",
+        "url": "",
+        "local_source": "fixtures/marfc-nbmt-01h/RHA_T_NBM_9hr.2022-08-09.20z.grb",
+        "versioned": true,
+        "name_pattern": "RHA_T_NBM_9hr.%Y-%m-%d.%Hz.grb"
     }
 ]
 ```
@@ -181,49 +133,49 @@
 ```
 
 
-## Plugin: `abrfc-qpe-01h`
+## Plugin: `aprfc-qpf-06h`
 
 
 ```
 [
     {
-        "plugin": "abrfc-qpe-01h",
-        "url": "",
-        "local_source": "fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2025102413Z.nc.gz",
-        "versioned": false,
-        "name_pattern": "abrfc_qpe_01hr_%Y%m%d%HZ.nc.gz"
-    }
-]
-```
-
-
-## Plugin: `nohrsc-snodas-assimilated`
-
-
-```
-[
-    {
-        "plugin": "nohrsc-snodas-assimilated",
-        "url": "",
-        "local_source": "fixtures/nohrsc-snodas-assimilated/assim_layers_2022010112.tar",
-        "versioned": false,
-        "name_pattern": "assim_layers_%Y010112.tar"
-    }
-]
-```
-
-
-## Plugin: `serfc-qpf-06h`
-
-
-```
-[
-    {
-        "plugin": "serfc-qpf-06h",
-        "url": "",
-        "local_source": "fixtures/serfc-qpf-06h/ALR_QPF_SFC_2022040100_006.grb.gz",
+        "plugin": "aprfc-qpf-06h",
+        "url": "https://cbt.crohms.org/akgrids",
+        "local_source": "fixtures/aprfc-qpf-06h/qpf06f_has_NNNf_YYYYMMDD_HH_awips_202510140703_2025101418f006.3339381911.grb.gz",
         "versioned": true,
-        "name_pattern": "ALR_QPF_SFC_%Y040100_006.grb.gz"
+        "name_pattern": "qpf06f_has_NNNf_YYYYMMDD_HH_awips_%Y%m%d%H%M_%Y%m%d_%Hf*.grb.gz"
+    }
+]
+```
+
+
+## Plugin: `prism-ppt-early`
+
+
+```
+[
+    {
+        "plugin": "prism-ppt-early",
+        "url": "",
+        "local_source": "fixtures/prism-ppt-early/PRISM_ppt_early_4kmD2_20220808_bil.zip",
+        "versioned": false,
+        "name_pattern": "PRISM_ppt_early_4kmD2_%Y0808_bil.zip"
+    }
+]
+```
+
+
+## Plugin: `ndfd-conus-qpf-06h`
+
+
+```
+[
+    {
+        "plugin": "ndfd-conus-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/ndfd-conus-qpf-06h/ds.qpf_202208250054.bin",
+        "versioned": true,
+        "name_pattern": "ds.airtemp_%Y08010054-1-3.bin"
     }
 ]
 ```
@@ -240,70 +192,6 @@
         "local_source": "fixtures/ncep-mrms-v12-msqpe01h-p2-carib/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
         "versioned": false,
         "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-%H0000.grib2.gz"
-    }
-]
-```
-
-
-## Plugin: `mbrfc-krf-fct-airtemp-01h`
-
-
-```
-[
-    {
-        "plugin": "mbrfc-krf-fct-airtemp-01h",
-        "url": "",
-        "local_source": "fixtures/mbrfc-krf-fct-airtemp-01h/krf_hourly_ftemps_grib_2022082501f373.grb.gz",
-        "versioned": true,
-        "name_pattern": "krf_hourly_ftemps_grib_%Y%m%d%Hf373.grb.gz"
-    }
-]
-```
-
-
-## Plugin: `serfc-qpe-01h`
-
-
-```
-[
-    {
-        "plugin": "serfc-qpe-01h",
-        "url": "",
-        "local_source": "fixtures/serfc-qpe-01h/xmrg0401202200z.grb.gz",
-        "versioned": false,
-        "name_pattern": "xmrg0401%Y00z.grb.gz"
-    }
-]
-```
-
-
-## Plugin: `aprfc-qte-01h`
-
-
-```
-[
-    {
-        "plugin": "aprfc-qte-01h",
-        "url": null,
-        "local_source": "fixtures/aprfc-qte-01h/20241123_akurma.t21z.2dvaranl_ndfd_3p0.grb2",
-        "versioned": false,
-        "name_pattern": "%Y%m%d_akurma.t%Hz.2dvaranl_ndfd_3p0.grb2"
-    }
-]
-```
-
-
-## Plugin: `prism-tmax-stable`
-
-
-```
-[
-    {
-        "plugin": "prism-tmax-stable",
-        "url": "",
-        "local_source": "fixtures/prism-tmax-stable/PRISM_tmax_stable_4kmD2_19810929_bil.zip",
-        "versioned": false,
-        "name_pattern": "PRISM_tmax_stable_4kmD2_19810929_bil.zip"
     }
 ]
 ```
@@ -332,17 +220,81 @@
 ```
 
 
-## Plugin: `lmrfc-qpf-06h`
+## Plugin: `nohrsc-snodas-unmasked`
 
 
 ```
 [
     {
-        "plugin": "lmrfc-qpf-06h",
+        "plugin": "nohrsc-snodas-unmasked",
         "url": "",
-        "local_source": "fixtures/lmrfc-qpf-06h/ORN_QPF_SFC_2022080912_234_2022081906f234.grb.gz",
+        "local_source": "fixtures/nohrsc-snodas-unmasked/SNODAS_unmasked_20180115.tar",
+        "versioned": false,
+        "name_pattern": "SNODAS_unmasked_20180115.tar"
+    }
+]
+```
+
+
+## Plugin: `nohrsc-snodas-assimilated`
+
+
+```
+[
+    {
+        "plugin": "nohrsc-snodas-assimilated",
+        "url": "",
+        "local_source": "fixtures/nohrsc-snodas-assimilated/assim_layers_2022010112.tar",
+        "versioned": false,
+        "name_pattern": "assim_layers_%Y010112.tar"
+    }
+]
+```
+
+
+## Plugin: `wpc-qpf-2p5km`
+
+
+```
+[
+    {
+        "plugin": "wpc-qpf-2p5km",
+        "url": "",
+        "local_source": "fixtures/wpc-qpf-2p5km/p06m_2022080912f168.grb",
         "versioned": true,
-        "name_pattern": "ORN_QPF_SFC_%Y%m%d%H_234_%Y%m%d%Hf234.grb.gz"
+        "name_pattern": "p06m_%Y%m%d12f168.grb"
+    }
+]
+```
+
+
+## Plugin: `abrfc-qpf-06h`
+
+
+```
+[
+    {
+        "plugin": "abrfc-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/abrfc-qpf-06h/QPF6_2023091912f060.cdf",
+        "versioned": true,
+        "name_pattern": "QPF6_%Y%m%d%Hf060.nc.gz"
+    }
+]
+```
+
+
+## Plugin: `mbrfc-krf-qpe-01h`
+
+
+```
+[
+    {
+        "plugin": "mbrfc-krf-qpe-01h",
+        "url": "",
+        "local_source": "fixtures/mbrfc-krf-qpe-01h/krfqpe_2022080921z.grib.gz",
+        "versioned": false,
+        "name_pattern": "krfqpe_%Y%m%d%hz.grib.gz"
     }
 ]
 ```
@@ -385,113 +337,33 @@
 ```
 
 
-## Plugin: `abrfc-qpf-06h`
+## Plugin: `serfc-qpf-06h`
 
 
 ```
 [
     {
-        "plugin": "abrfc-qpf-06h",
+        "plugin": "serfc-qpf-06h",
         "url": "",
-        "local_source": "fixtures/abrfc-qpf-06h/QPF6_2023091912f060.cdf",
+        "local_source": "fixtures/serfc-qpf-06h/ALR_QPF_SFC_2022040100_006.grb.gz",
         "versioned": true,
-        "name_pattern": "QPF6_%Y%m%d%Hf060.nc.gz"
+        "name_pattern": "ALR_QPF_SFC_%Y040100_006.grb.gz"
     }
 ]
 ```
 
 
-## Plugin: `ncrfc-mpe-01h`
+## Plugin: `prism-tmin-early`
 
 
 ```
 [
     {
-        "plugin": "ncrfc-mpe-01h",
+        "plugin": "prism-tmin-early",
         "url": "",
-        "local_source": "fixtures/ncrfc-mpe-01h/MSR_mpe-lx_2022080922z.grb",
+        "local_source": "fixtures/prism-tmin-early/PRISM_tmin_early_4kmD2_20220808_bil.zip",
         "versioned": false,
-        "name_pattern": "MSR_mpe-lx_%Y%m%d22z.grb"
-    }
-]
-```
-
-
-## Plugin: `cnrfc-nbm-qtf-01h`
-
-
-```
-[
-    {
-        "plugin": "cnrfc-nbm-qtf-01h",
-        "url": "",
-        "local_source": "fixtures/cnrfc-nbm-qtf-01h/fcstTemperature.20221208_0700.nc.gz",
-        "versioned": true,
-        "name_pattern": "fcstTemperature.%Y%m%d_%H00.nc.gz"
-    }
-]
-```
-
-
-## Plugin: `cnrfc-qpe-06h`
-
-
-```
-[
-    {
-        "plugin": "cnrfc-qpe-06h",
-        "url": "",
-        "local_source": "fixtures/cnrfc-qpe-06h/qpe.20220803_1200.nc.gz",
-        "versioned": false,
-        "name_pattern": "qpe.%Y%m%d_%H00.nc.gz"
-    }
-]
-```
-
-
-## Plugin: `mbrfc-krf-qpf-06h`
-
-
-```
-[
-    {
-        "plugin": "mbrfc-krf-qpf-06h",
-        "url": "",
-        "local_source": "fixtures/mbrfc-krf-qpf-06h/krf_qpf_grib_2022080918f168.grb.gz",
-        "versioned": true,
-        "name_pattern": "krf_qpf_grib_%Y%m%d%hf168.grb.gz"
-    }
-]
-```
-
-
-## Plugin: `marfc-nbmt-01h`
-
-
-```
-[
-    {
-        "plugin": "marfc-nbmt-01h",
-        "url": "",
-        "local_source": "fixtures/marfc-nbmt-01h/RHA_T_NBM_9hr.2022-08-09.20z.grb",
-        "versioned": true,
-        "name_pattern": "RHA_T_NBM_9hr.%Y-%m-%d.%Hz.grb"
-    }
-]
-```
-
-
-## Plugin: `aprfc-qpf-06h`
-
-
-```
-[
-    {
-        "plugin": "aprfc-qpf-06h",
-        "url": "https://cbt.crohms.org/akgrids",
-        "local_source": "fixtures/aprfc-qpf-06h/qpf06f_has_NNNf_YYYYMMDD_HH_awips_202510140703_2025101418f006.3339381911.grb.gz",
-        "versioned": true,
-        "name_pattern": "qpf06f_has_NNNf_YYYYMMDD_HH_awips_%Y%m%d%H%M_%Y%m%d_%Hf*.grb.gz"
+        "name_pattern": "PRISM_tmin_early_4kmD2_%Y0808_bil.zip"
     }
 ]
 ```
@@ -513,72 +385,186 @@
 ```
 
 
-## Plugin: `mbrfc-krf-qpe-01h`
+## Plugin: `ncrfc-mpe-01h`
 
 
 ```
 [
     {
-        "plugin": "mbrfc-krf-qpe-01h",
+        "plugin": "ncrfc-mpe-01h",
         "url": "",
-        "local_source": "fixtures/mbrfc-krf-qpe-01h/krfqpe_2022080921z.grib.gz",
+        "local_source": "fixtures/ncrfc-mpe-01h/MSR_mpe-lx_2022080922z.grb",
         "versioned": false,
-        "name_pattern": "krfqpe_%Y%m%d%hz.grib.gz"
+        "name_pattern": "MSR_mpe-lx_%Y%m%d22z.grb"
     }
 ]
 ```
 
 
-## Plugin: `cnrfc-qpf-06h`
+## Plugin: `ncep-mrms-v12-msqpe01h-p2-alaska`
 
 
 ```
 [
     {
-        "plugin": "cnrfc-qpf-06h",
+        "plugin": "ncep-mrms-v12-msqpe01h-p2-alaska",
         "url": "",
-        "local_source": "fixtures/cnrfc-qpf-06h/qpf.20221201_1200.nc.gz",
-        "versioned": true,
-        "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
+        "local_source": "fixtures/ncep-mrms-v12-msqpe01h-p2-alaska/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-%H0000.grib2.gz"
+    }
+]
+```
+
+
+## Plugin: `marfc-rtmat-01h`
+
+
+```
+[
+    {
+        "plugin": "marfc-rtmat-01h",
+        "url": "",
+        "local_source": "fixtures/marfc-rtmat-01h/RHA_T_RTMA_1hr.2022-08-09.19z.grb",
+        "versioned": false,
+        "name_pattern": "RHA_T_RTMA_1hr.%Y-%m-%d.%Hz.grb"
+    }
+]
+```
+
+
+## Plugin: `nbm-conus`
+
+
+```
+[
+    {
+        "plugin": "nbm-co-qpf-06h",
+        "url": null,
+        "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
+        "versioned": false,
+        "products": 0,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     },
     {
-        "plugin": "cnrfc-qpf-06h",
-        "url": "",
-        "local_source": "fixtures/cnrfc-qpf-06h/qpf.20221208_1200.nc.gz",
+        "plugin": "nbm-co-qtf-01h",
+        "url": null,
+        "local_source": "fixtures/nbm-conus/blend.t00z.core.f001.co.grib2",
         "versioned": true,
-        "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
-    }
-]
-```
-
-
-## Plugin: `nwrfc-qpe-06h`
-
-
-```
-[
+        "products": 1,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
+    },
     {
-        "plugin": "nwrfc-qpe-06h",
-        "url": "",
-        "local_source": "fixtures/nwrfc-qpe-06h/QPE.2022121212.nc.gz",
+        "plugin": "nbm-co-qtf-03h",
+        "url": null,
+        "local_source": "fixtures/nbm-conus/blend.t00z.core.f100.co.grib2",
         "versioned": false,
-        "name_pattern": "QPE.%Y121212.nc.gz"
+        "products": 0,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
+    },
+    {
+        "plugin": "nbm-co-qtf-06h",
+        "url": null,
+        "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
+        "versioned": true,
+        "products": 0,
+        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
     }
 ]
 ```
 
 
-## Plugin: `ncrfc-fmat-01h`
+## Plugin: `nerfc-qpe-01h`
 
 
 ```
 [
     {
-        "plugin": "ncrfc-fmat-01h",
+        "plugin": "nerfc-qpe-01h",
         "url": "",
-        "local_source": "fixtures/ncrfc-fmat-01h/msr-coe-1hrT--NCRFC_hourlyFcstT_2022022612.tar.gz",
+        "local_source": "fixtures/nerfc-qpe-01h/xmrg1207202215z.grb.gz",
+        "versioned": false,
+        "name_pattern": "xmrg1207%Y15z.grb.gz"
+    }
+]
+```
+
+
+## Plugin: `nwrfc-qtf-06h`
+
+
+```
+[
+    {
+        "plugin": "nwrfc-qtf-06h",
+        "url": "",
+        "local_source": "fixtures/nwrfc-qtf-06h/QTF.2022121212.nc.gz",
         "versioned": true,
-        "name_pattern": "msr-coe-1hrT--NCRFC_hourlyFcstT_202%Y612.tar.gz"
+        "name_pattern": "QTF.%Y121212.nc.gz"
+    }
+]
+```
+
+
+## Plugin: `ncep-stage4-mosaic-24h`
+
+
+```
+[
+    {
+        "plugin": "ncep-stage4-mosaic-24h",
+        "url": "",
+        "local_source": "fixtures/ncep-stage4-mosaic-24h/st4_conus.2022080512.24h.grb2",
+        "versioned": false,
+        "name_pattern": "st4_conus.%Y080512.24h.grb2"
+    }
+]
+```
+
+
+## Plugin: `cnrfc-nbm-qtf-01h`
+
+
+```
+[
+    {
+        "plugin": "cnrfc-nbm-qtf-01h",
+        "url": "",
+        "local_source": "fixtures/cnrfc-nbm-qtf-01h/fcstTemperature.20221208_0700.nc.gz",
+        "versioned": true,
+        "name_pattern": "fcstTemperature.%Y%m%d_%H00.nc.gz"
+    }
+]
+```
+
+
+## Plugin: `nwrfc-qpf-06h`
+
+
+```
+[
+    {
+        "plugin": "nwrfc-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/nwrfc-qpf-06h/QPF.2022121212.nc.gz",
+        "versioned": true,
+        "name_pattern": "QPF.%Y121212.nc.gz"
+    }
+]
+```
+
+
+## Plugin: `cnrfc-qpe-06h`
+
+
+```
+[
+    {
+        "plugin": "cnrfc-qpe-06h",
+        "url": "",
+        "local_source": "fixtures/cnrfc-qpe-06h/qpe.20220803_1200.nc.gz",
+        "versioned": false,
+        "name_pattern": "qpe.%Y%m%d_%H00.nc.gz"
     }
 ]
 ```
@@ -634,65 +620,17 @@
 ```
 
 
-## Plugin: `ncep-mrms-v12-multisensor-qpe-01h-pass2`
+## Plugin: `nwrfc-qpe-06h`
 
 
 ```
 [
     {
-        "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass2",
+        "plugin": "nwrfc-qpe-06h",
         "url": "",
-        "local_source": "fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass2/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
+        "local_source": "fixtures/nwrfc-qpe-06h/QPE.2022121212.nc.gz",
         "versioned": false,
-        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-150000.grib2.gz"
-    }
-]
-```
-
-
-## Plugin: `ncep-mrms-v12-msqpe01h-p2-alaska`
-
-
-```
-[
-    {
-        "plugin": "ncep-mrms-v12-msqpe01h-p2-alaska",
-        "url": "",
-        "local_source": "fixtures/ncep-mrms-v12-msqpe01h-p2-alaska/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
-        "versioned": false,
-        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-%H0000.grib2.gz"
-    }
-]
-```
-
-
-## Plugin: `ndfd-conus-qpf-06h`
-
-
-```
-[
-    {
-        "plugin": "ndfd-conus-qpf-06h",
-        "url": "",
-        "local_source": "fixtures/ndfd-conus-qpf-06h/ds.qpf_202208250054.bin",
-        "versioned": true,
-        "name_pattern": "ds.airtemp_%Y08010054-1-3.bin"
-    }
-]
-```
-
-
-## Plugin: `lmrfc-qpe-01h`
-
-
-```
-[
-    {
-        "plugin": "lmrfc-qpe-01h",
-        "url": "",
-        "local_source": "fixtures/lmrfc-qpe-01h/2022080914z.grib.gz",
-        "versioned": false,
-        "name_pattern": "%Y%m%d%Hz.grib.gz"
+        "name_pattern": "QPE.%Y121212.nc.gz"
     }
 ]
 ```
@@ -714,81 +652,120 @@
 ```
 
 
-## Plugin: `prism-ppt-stable`
+## Plugin: `cnrfc-qpf-06h`
 
 
 ```
 [
     {
-        "plugin": "prism-ppt-stable",
+        "plugin": "cnrfc-qpf-06h",
         "url": "",
-        "local_source": "fixtures/prism-ppt-stable/PRISM_ppt_stable_4kmD2_19810929_bil.zip",
-        "versioned": false,
-        "name_pattern": "PRISM_ppt_stable_4kmD2_19810929_bil.zip"
-    }
-]
-```
-
-
-## Plugin: `ncrfc-rtmat-01h`
-
-
-```
-[
-    {
-        "plugin": "ncrfc-rtmat-01h",
-        "url": "",
-        "local_source": "fixtures/ncrfc-rtmat-01h/msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_2022080921z.grb",
-        "versioned": false,
-        "name_pattern": "msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_%Y%m%d21z.grb"
-    }
-]
-```
-
-
-## Plugin: `wpc-qpf-2p5km`
-
-
-```
-[
-    {
-        "plugin": "wpc-qpf-2p5km",
-        "url": "",
-        "local_source": "fixtures/wpc-qpf-2p5km/p06m_2022080912f168.grb",
+        "local_source": "fixtures/cnrfc-qpf-06h/qpf.20221201_1200.nc.gz",
         "versioned": true,
-        "name_pattern": "p06m_%Y%m%d12f168.grb"
-    }
-]
-```
-
-
-## Plugin: `nwrfc-qtf-06h`
-
-
-```
-[
+        "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
+    },
     {
-        "plugin": "nwrfc-qtf-06h",
+        "plugin": "cnrfc-qpf-06h",
         "url": "",
-        "local_source": "fixtures/nwrfc-qtf-06h/QTF.2022121212.nc.gz",
+        "local_source": "fixtures/cnrfc-qpf-06h/qpf.20221208_1200.nc.gz",
         "versioned": true,
-        "name_pattern": "QTF.%Y121212.nc.gz"
+        "name_pattern": "qpf.%Y%m%d_%H00.nc.gz"
     }
 ]
 ```
 
 
-## Plugin: `nerfc-qpe-01h`
+## Plugin: `prism-tmax-early`
 
 
 ```
 [
     {
-        "plugin": "nerfc-qpe-01h",
+        "plugin": "prism-tmax-early",
         "url": "",
-        "local_source": "fixtures/nerfc-qpe-01h/xmrg1207202215z.grb.gz",
+        "local_source": "fixtures/prism-tmax-early/PRISM_tmax_early_4kmD2_20220808_bil.zip",
         "versioned": false,
-        "name_pattern": "xmrg1207%Y15z.grb.gz"
+        "name_pattern": "PRISM_tmax_early_4kmD2_%Y0808_bil.zip"
+    }
+]
+```
+
+
+## Plugin: `naefs-mean-06h`
+
+
+```
+[
+    {
+        "plugin": "naefs-mean-06h",
+        "url": "",
+        "local_source": "fixtures/naefs-mean-06h/NAEFSmean_netcdf2022080912.nc",
+        "versioned": true,
+        "name_pattern": "NAEFSmean_netcdf%Y%m%d%H.nc"
+    }
+]
+```
+
+
+## Plugin: `ncep-mrms-v12-multisensor-qpe-01h-pass1`
+
+
+```
+[
+    {
+        "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass1",
+        "url": "",
+        "local_source": "fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass1/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-150000.grib2.gz"
+    }
+]
+```
+
+
+## Plugin: `lmrfc-qpe-01h`
+
+
+```
+[
+    {
+        "plugin": "lmrfc-qpe-01h",
+        "url": "",
+        "local_source": "fixtures/lmrfc-qpe-01h/2022080914z.grib.gz",
+        "versioned": false,
+        "name_pattern": "%Y%m%d%Hz.grib.gz"
+    }
+]
+```
+
+
+## Plugin: `lmrfc-qpf-06h`
+
+
+```
+[
+    {
+        "plugin": "lmrfc-qpf-06h",
+        "url": "",
+        "local_source": "fixtures/lmrfc-qpf-06h/ORN_QPF_SFC_2022080912_234_2022081906f234.grb.gz",
+        "versioned": true,
+        "name_pattern": "ORN_QPF_SFC_%Y%m%d%H_234_%Y%m%d%Hf234.grb.gz"
+    }
+]
+```
+
+
+## Plugin: `abrfc-qpe-01h`
+
+
+```
+[
+    {
+        "plugin": "abrfc-qpe-01h",
+        "url": "",
+        "local_source": "fixtures/abrfc-qpe-01h/abrfc_qpe_01hr_2025102413Z.nc.gz",
+        "versioned": false,
+        "name_pattern": "abrfc_qpe_01hr_%Y%m%d%HZ.nc.gz"
     }
 ]
 ```
@@ -810,74 +787,33 @@
 ```
 
 
-## Plugin: `prism-tmin-early`
+## Plugin: `aprfc-qtf-01h`
 
 
 ```
 [
     {
-        "plugin": "prism-tmin-early",
-        "url": "",
-        "local_source": "fixtures/prism-tmin-early/PRISM_tmin_early_4kmD2_20220808_bil.zip",
-        "versioned": false,
-        "name_pattern": "PRISM_tmin_early_4kmD2_%Y0808_bil.zip"
+        "plugin": "aprfc-qtf-01h",
+        "url": "https://cbt.crohms.org/akgrids",
+        "local_source": "fixtures/aprfc-qtf-01h/ta01f_has_NNNf_YYYYMMDD_HH_awips_202510131109_2025102312f240.grb.gz",
+        "versioned": true,
+        "name_pattern": "ta01f_has_NNNf_YYYYMMDD_HH_awips_%Y%m%d%H%M_%Y%m%d_%Hf*.grb.gz"
     }
 ]
 ```
 
 
-## Plugin: `prism-tmin-stable`
+## Plugin: `prism-tmax-stable`
 
 
 ```
 [
     {
-        "plugin": "prism-tmin-stable",
+        "plugin": "prism-tmax-stable",
         "url": "",
-        "local_source": "fixtures/prism-tmin-stable/PRISM_tmin_stable_4kmD2_19810929_bil.zip",
+        "local_source": "fixtures/prism-tmax-stable/PRISM_tmax_stable_4kmD2_19810929_bil.zip",
         "versioned": false,
-        "name_pattern": "PRISM_tmin_stable_4kmD2_19810929_bil.zip"
-    }
-]
-```
-
-
-## Plugin: `nbm-conus`
-
-
-```
-[
-    {
-        "plugin": "nbm-co-qpf-06h",
-        "url": null,
-        "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
-        "versioned": false,
-        "products": 0,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
-    },
-    {
-        "plugin": "nbm-co-qtf-01h",
-        "url": null,
-        "local_source": "fixtures/nbm-conus/blend.t00z.core.f001.co.grib2",
-        "versioned": true,
-        "products": 1,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
-    },
-    {
-        "plugin": "nbm-co-qtf-03h",
-        "url": null,
-        "local_source": "fixtures/nbm-conus/blend.t00z.core.f100.co.grib2",
-        "versioned": false,
-        "products": 0,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
-    },
-    {
-        "plugin": "nbm-co-qtf-06h",
-        "url": null,
-        "local_source": "fixtures/nbm-conus/blend.t00z.core.f205.co.grib2",
-        "versioned": true,
-        "products": 0,
-        "name_pattern": "blend.%Y%m%dt%Hz.core.f001.co.grib2"
+        "name_pattern": "PRISM_tmax_stable_4kmD2_19810929_bil.zip"
     }
 ]
 ```
@@ -899,17 +835,65 @@
 ```
 
 
-## Plugin: `ncep-mrms-v12-msqpe01h-p1-carib`
+## Plugin: `ncrfc-rtmat-01h`
 
 
 ```
 [
     {
-        "plugin": "ncep-mrms-v12-msqpe01h-p1-carib",
+        "plugin": "ncrfc-rtmat-01h",
         "url": "",
-        "local_source": "fixtures/ncep-mrms-v12-msqpe01h-p1-carib/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
+        "local_source": "fixtures/ncrfc-rtmat-01h/msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_2022080921z.grb",
         "versioned": false,
-        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
+        "name_pattern": "msr-coe-1hrT--NCRFC_RTMA_Obs_1hrT_%Y%m%d21z.grb"
+    }
+]
+```
+
+
+## Plugin: `serfc-qpe-01h`
+
+
+```
+[
+    {
+        "plugin": "serfc-qpe-01h",
+        "url": "",
+        "local_source": "fixtures/serfc-qpe-01h/xmrg0401202200z.grb.gz",
+        "versioned": false,
+        "name_pattern": "xmrg0401%Y00z.grb.gz"
+    }
+]
+```
+
+
+## Plugin: `aprfc-qpe-06h`
+
+
+```
+[
+    {
+        "plugin": "aprfc-qpe-06h",
+        "url": "https://cbt.crohms.org/akgrids",
+        "local_source": "fixtures/aprfc-qpe-06h/precip_acr_grid_06_12_20231104.grb.gz",
+        "versioned": false,
+        "name_pattern": "precip_acr_grid_06_12_%y%m%d.grb.gz"
+    }
+]
+```
+
+
+## Plugin: `ncep-mrms-v12-multisensor-qpe-01h-pass2`
+
+
+```
+[
+    {
+        "plugin": "ncep-mrms-v12-multisensor-qpe-01h-pass2",
+        "url": "",
+        "local_source": "fixtures/ncep-mrms-v12-multisensor-qpe-01h-pass2/MRMS_MultiSensor_QPE_01H_Pass2_00.00_20220809-150000.grib2.gz",
+        "versioned": false,
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass2_00.00_%Y%m%d-150000.grib2.gz"
     }
 ]
 ```
@@ -931,33 +915,49 @@
 ```
 
 
-## Plugin: `marfc-rtmat-01h`
+## Plugin: `mbrfc-krf-qpf-06h`
 
 
 ```
 [
     {
-        "plugin": "marfc-rtmat-01h",
+        "plugin": "mbrfc-krf-qpf-06h",
         "url": "",
-        "local_source": "fixtures/marfc-rtmat-01h/RHA_T_RTMA_1hr.2022-08-09.19z.grb",
-        "versioned": false,
-        "name_pattern": "RHA_T_RTMA_1hr.%Y-%m-%d.%Hz.grb"
+        "local_source": "fixtures/mbrfc-krf-qpf-06h/krf_qpf_grib_2022080918f168.grb.gz",
+        "versioned": true,
+        "name_pattern": "krf_qpf_grib_%Y%m%d%hf168.grb.gz"
     }
 ]
 ```
 
 
-## Plugin: `aprfc-qpe-06h`
+## Plugin: `ncep-mrms-v12-msqpe01h-p1-carib`
 
 
 ```
 [
     {
-        "plugin": "aprfc-qpe-06h",
-        "url": "https://cbt.crohms.org/akgrids",
-        "local_source": "fixtures/aprfc-qpe-06h/precip_acr_grid_06_12_20231104.grb.gz",
+        "plugin": "ncep-mrms-v12-msqpe01h-p1-carib",
+        "url": "",
+        "local_source": "fixtures/ncep-mrms-v12-msqpe01h-p1-carib/MRMS_MultiSensor_QPE_01H_Pass1_00.00_20220809-150000.grib2.gz",
         "versioned": false,
-        "name_pattern": "precip_acr_grid_06_12_%y%m%d.grb.gz"
+        "name_pattern": "MRMS_MultiSensor_QPE_01H_Pass1_00.00_%Y%m%d-%H0000.grib2.gz"
+    }
+]
+```
+
+
+## Plugin: `ncrfc-fmat-01h`
+
+
+```
+[
+    {
+        "plugin": "ncrfc-fmat-01h",
+        "url": "",
+        "local_source": "fixtures/ncrfc-fmat-01h/msr-coe-1hrT--NCRFC_hourlyFcstT_2022022612.tar.gz",
+        "versioned": true,
+        "name_pattern": "msr-coe-1hrT--NCRFC_hourlyFcstT_202%Y612.tar.gz"
     }
 ]
 ```
