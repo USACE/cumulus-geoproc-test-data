@@ -2,8 +2,8 @@
     {
         "plugin": "prism-tmin-early",
         "url": "",
-        "local_source": "fixtures/prism-tmin-early/PRISM_tmin_early_4kmD2_20220808_bil.zip",
+        "local_source": "fixtures/prism-tmin-early/prism_tmin_us_25m_20251103.zip",
         "versioned": false,
-        "name_pattern": "PRISM_tmin_early_4kmD2_%Y0808_bil.zip"
+        "name_pattern": "prism_tmin_us_25m_%Y%m%d.zip"
     }
 ]
